@@ -1,0 +1,4265 @@
+/*TMSans*/
+@font-face { font-family: "TMSans-Regular"; src: url("http://ticketmaster-api-staging.github.io/assets/fonts/tmSans/tmSans_Web/TMSans-Regular.eot"); src: url("http://ticketmaster-api-staging.github.io/assets/fonts/tmSans/tmSans_Web/TMSans-Regular.eot?") format("embedded-opentype"), url("http://ticketmaster-api-staging.github.io/assets/fonts/tmSans/tmSans_Web/TMSans-Regular.woff") format("woff"), url("http://ticketmaster-api-staging.github.io/assets/fonts/tmSans/tmSans_Web/TMSans-Regular.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+@font-face { font-family: "TMSans-Bold"; src: url("http://ticketmaster-api-staging.github.io/assets/fonts/tmSans/tmSans_Web/TMSans-Bold.eot"); src: url("http://ticketmaster-api-staging.github.io/assets/fonts/tmSans/tmSans_Web/TMSans-Bold.eot?") format("embedded-opentype"), url("http://ticketmaster-api-staging.github.io/assets/fonts/tmSans/tmSans_Web/TMSans-Bold.woff") format("woff"), url("http://ticketmaster-api-staging.github.io/assets/fonts/tmSans/tmSans_Web/TMSans-Bold.ttf") format("truetype"); font-style: normal; font-weight: normal; }
+
+.nav-tab-wrapper, .wrap h2.nav-tab-wrapper, h1.nav-tab-wrapper {
+    border: none;
+}
+
+#ticketmaster-settings .widget-container-wrapper {
+    margin-left: 10px;
+}
+
+#ticketmaster-settings .row-native, #ticketmaster-settings .row {
+    margin-left: -15px;
+    margin-right: -15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#ticketmaster-settings .widget__color_scheme_custom .row-native, #ticketmaster-settings .row {
+    overflow: initial;
+}
+
+#ticketmaster-settings .row:before, #ticketmaster-settings .row:after {
+    content: " ";
+    display: table;
+}
+
+#ticketmaster-settings .config-block {
+    width: 33.33333%;
+    margin-bottom: 60px;
+    border-right: 1px solid #b7c9d3;
+    padding-right: 20px;
+    padding-left: 15px;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+
+#ticketmaster-settings .config-block .minicolors-theme-default .minicolors-input {
+    padding-left: 55px;
+}
+
+#ticketmaster-settings .col-lg-widget {
+    width: 66.66667%;
+    text-align: left;
+    -webkit-box-sizing: border-box;
+    -moz-box-sizing: border-box;
+    box-sizing: border-box;
+}
+#ticketmaster-settings .nav-tabs {
+    margin: 0 0 0 5px;
+    border: none;
+    padding-left: 0;
+    list-style: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+#ticketmaster-settings .nav-tabs li {
+    float: left;
+    margin: 0 7px 0 0;
+    position: relative;
+    display: block;
+    border-bottom: 2px solid #b7c9d3;
+}
+#ticketmaster-settings .nav-tabs li a {
+    display: block;
+    position: relative;
+    font-size: 1.4em;
+    line-height: 2em;
+    font-style: normal;
+    padding: 0 30px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #b7c9d3;
+    background: transparent;
+    outline: none;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    margin: 0 0 0 -8px;
+    box-shadow: none;
+}
+
+#ticketmaster-settings .nav-tabs li.active,
+#ticketmaster-settings .nav-tabs li.active:active,
+#ticketmaster-settings .nav-tabs li.focus {
+    border-bottom: 2px solid #009cde;
+    box-shadow: none;
+}
+
+#ticketmaster-settings .nav-tabs li.active a {
+    color: #009cde;
+    outline: none;
+    box-shadow: none;
+}
+
+#ticketmaster-settings .tab-content {
+    padding-top: 30px;
+}
+
+#ticketmaster-settings .tab-content > .active {
+    display: block;
+}
+#ticketmaster-settings .tab-content > .tab-pane {
+    display: none;
+}
+#ticketmaster-settings .fade.in {
+    opacity: 1;
+    display: block;
+}
+#ticketmaster-settings .fade {
+    opacity: 0;
+    -webkit-transition: opacity 0.15s linear;
+    -o-transition: opacity 0.15s linear;
+    transition: opacity 0.15s linear;
+}
+
+#ticketmaster-settings .tab-buttons {
+    margin-bottom: 30px;
+}
+
+#ticketmaster-settings .tab-buttons input[type="radio"] {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border: 0;
+    opacity: 0;
+}
+
+#ticketmaster-settings .tab-buttons button.active, #ticketmaster-settings .tab-buttons input[type="radio"]:checked + label {
+    color: #009cde;
+    border-bottom: 2px solid #009cde;
+}
+
+#ticketmaster-settings .tab-buttons button + label,
+#ticketmaster-settings .tab-buttons input[type="radio"] + label {
+    outline: none;
+    border-bottom: 2px solid rgba(183, 201, 211, 0.2);
+    padding: 5px 15px;
+    margin-right: 2px;
+    margin-left: 0;
+    cursor: pointer;
+    font-weight: normal;
+}
+
+.col-xs-1, .col-sm-1, .col-md-1, .col-lg-1, .col-xs-2, .col-sm-2, .col-md-2, .col-lg-2, .col-xs-3, .col-sm-3, .col-md-3, .col-lg-3, .col-xs-4, .col-sm-4, .col-md-4, .col-lg-4, .col-xs-5, .col-sm-5, .col-md-5, .col-lg-5, .col-xs-6, .col-sm-6, .col-md-6, .col-lg-6, .col-xs-7, .col-sm-7, .col-md-7, .col-lg-7, .col-xs-8, .col-sm-8, .col-md-8, .col-lg-8, .col-xs-9, .col-sm-9, .col-md-9, .col-lg-9, .col-xs-10, .col-sm-10, .col-md-10, .col-lg-10, .col-xs-11, .col-sm-11, .col-md-11, .col-lg-11, .col-xs-12, .col-sm-12, .col-md-12, .col-lg-12 {
+    position: relative;
+    min-height: 1px;
+    padding-left: 15px;
+    padding-right: 15px;
+    float: left;
+    box-sizing: border-box;
+}
+
+#ticketmaster-settings .col-xs-12,
+#ticketmaster-settings .col-lg-12 {
+    width: 100%;
+}
+
+#ticketmaster-settings .col-lg-6 {
+    width: 50%;
+}
+
+#ticketmaster-settings .col-sm-12 {
+    width: 100%;
+}
+
+#ticketmaster-settings .col-xs-6 {
+    width: 50%;
+}
+
+#ticketmaster-settings .base-margin-bottom {
+    margin-bottom: 24px;
+}
+
+#ticketmaster-settings input,
+#ticketmaster-settings input[type=number],
+#ticketmaster-settings select,
+#ticketmaster-settings textarea {
+    width: 100%;
+    /* height: auto; */
+    border: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
+    padding: 8px 16px;
+}
+
+#ticketmaster-settings input,
+#ticketmaster-settings select {
+    margin-bottom: 24px;
+    border-radius: 4px;
+    outline: none;
+    height: 48px;
+    line-height: inherit;
+}
+
+#ticketmaster-settings input[type=radio] {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    margin-bottom: 0;
+    padding: 0;
+    line-height: inherit;
+}
+
+#ticketmaster-settings input[type=checkbox] {
+    width: 24px;
+    height: 24px;
+    background-color: #ffffff;
+    border: solid 1px rgba(118, 134, 146, 0.4);
+    border-radius: inherit;
+    padding: 4px !important;
+    margin-bottom: 0;
+}
+
+#ticketmaster-settings .country-select .custom_select__placeholder, #ticketmaster-settings .custom_select__list.js_widget_custom__list {
+    display: none;
+}
+
+#ticketmaster-settings .button-blue, #ticketmaster-settings .button-white-gray-border {
+    color: #ffffff;
+    background: #009cde;
+    text-decoration: none;
+    padding: 12px 26px;
+    margin-top: 27px;
+    border: 2px solid #009cde;
+    border-radius: 4px;
+    width: 100%;
+    height: auto;
+    font-weight: bold;
+    line-height: 18px;
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+#ticketmaster-settings .button-white-gray-border {
+    color: #a9bdc9;
+    background: transparent;
+    border: 2px solid #a9bdc9;
+    line-height: 18px;
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+    font-size: 14px;
+}
+
+#ticketmaster-settings .button-blue:hover, #ticketmaster-settings .button-white-gray-border:hover {
+    cursor: pointer;
+}
+
+#ticketmaster-settings .button-blue:hover {
+    background-color: #2a7cc7;
+}    
+
+#ticketmaster-settings .button-white-gray-border:hover {
+    color: #00ade5;
+    border-color: #00ade5;
+}
+
+#ticketmaster-settings .visible-lg {
+    clear: both;
+}
+
+#ticketmaster-settings .js_widget_width_slider {
+  margin-bottom: -12px;
+}
+
+#ticketmaster-settings .double-margin-bottom {
+    margin-bottom: 48px;
+}
+
+#ticketmaster-settings .col-sm-theme {
+    margin-bottom: 20px;
+}
+
+#ticketmaster-settings .main-widget-config-form .slider.slider-horizontal {
+    width:95%;
+    margin-left: 15px;
+}
+
+#ticketmaster-settings .main-widget-config-form .bootstrap_slider .slider .tooltip-inner {
+    display: none;
+}
+
+#ticketmaster-settings .bootstrap_slider-horizontal .slider.slider-horizontal .slider-track {
+    height: 2px;
+    margin-top: -1px;
+    background: #b7c9d3;
+    opacity: .5;
+}
+
+#ticketmaster-settings .bootstrap_slider-horizontal .slider.slider-horizontal .slider-track:before, .bootstrap_slider-horizontal .slider.slider-horizontal .slider-track:after {
+    content: '';
+    width: 8px;
+    height: 2px;
+    position: absolute;
+    top: 0;
+    background: #b7c9d3;
+}
+
+#ticketmaster-settings .bootstrap_slider-horizontal .slider.slider-horizontal .slider-selection, #ticketmaster-settings .bootstrap_slider-horizontal .slider.slider-horizontal .slider-track-high, #ticketmaster-settings .bootstrap_slider-horizontal .slider.slider-horizontal .slider-track-low {
+    display: none;
+}
+
+#ticketmaster-settings .bootstrap_slider .slider .slider-handle {
+    background: #b7c9d3;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    border-radius: 4px;
+}
+
+#ticketmaster-settings .bootstrap_slider-horizontal .slider.slider-horizontal .slider-handle {
+    width: 16px;
+    height: 20px;
+    margin-left: -8px;
+    margin-top: -9px;
+}
+
+#ticketmaster-settings {
+    width: 98%;
+    font: 400 16px/1.5 "TMSans-Regular", Helvetica, Arial, sans-serif;
+    color: #768692;
+    -webkit-text-size-adjust: 100%;
+    -webkit-font-feature-settings: "kern" 1;
+    -moz-font-feature-settings: "kern" 1;
+    -o-font-feature-settings: "kern" 1;
+    font-feature-settings: "kern" 1;
+    font-kerning: normal;
+    overflow-x: hidden;
+}
+
+#ticketmaster-settings h2 {
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+    font-size: 36px;
+    color: #414141;
+    line-height: 48px;
+    margin-top: 24px;
+    margin-bottom: 24px;
+    text-transform: uppercase;
+}
+
+#ticketmaster-settings #widgets-list h2 {
+    font-size: 24px;
+    line-height: 32px;
+    text-transform: none;
+}
+
+#ticketmaster-settings .wrap h2 {
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+    font-size: 24px;
+    font-weight: 800;
+    line-height: 32px;
+    text-transform: none;
+    color: #414141;
+    margin-top: 24px;
+    margin-bottom: 44px;
+}
+
+#ticketmaster-settings p {
+    font: 400 16px/1.5 "TMSans-Regular", Helvetica, Arial, sans-serif;
+    margin-top: 24px; margin-bottom: 24px;
+}
+
+#ticketmaster-settings a {
+    text-decoration: none;
+    /* font-family: "TMSans-Regular", Helvetica, Arial, sans-serif; */
+}
+
+#ticketmaster-settings a:hover {
+    text-decoration: none;
+}
+
+#ticketmaster-settings label {
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+    color: #b7c9d3;
+    font-weight: normal;
+    display: inline-block;
+    max-width: 100%;
+    margin-bottom: 5px;
+}
+
+#ticketmaster-settings label .config_field__description {
+    font-family: "TMSans-Regular", Helvetica, Arial, sans-serif;
+}
+
+#ticketmaster-settings input, #ticketmaster-settings select, #ticketmaster-settings textarea {
+    width: 100%;
+    border: 1px solid #CCCCCC;
+    background-color: #FFFFFF;
+    padding: 8px 16px;
+    color: #768692;
+    font-family: inherit;
+    font-size: inherit;
+    line-height: inherit;
+}
+
+#ticketmaster-settings .line {
+    height: 0;
+    opacity: 0.5;
+    border: dashed 1px #b7c9d3;
+    margin: 10px 0;
+}
+
+#ticketmaster-settings .display-none {
+    display: none
+}
+
+#ticketmaster-setting .widget__color_scheme_custom .color-picker {
+    position: relative;
+    z-index: 0
+}
+
+#ticketmaster-settings .radio-buttons input[type="radio"] + label, #ticketmaster-settings input[type="checkbox"] + label {
+    font-weight: normal;
+    line-height: 1.5em;
+    margin: 8px 0 8px 10px;
+    font-family: "TMSans-Regular", Helvetica, Arial, sans-serif;
+    color: #768692;
+}
+
+#ticketmaster-settings .tab-buttons button + label, .tab-buttons input[type="radio"] + label {
+    outline: none;
+    border-bottom: 2px solid rgba(183, 201, 211, 0.2);
+    background-color: #ffffff;
+    padding: 5px 15px;
+    margin-right: 2px;
+    margin-left: 0;
+    cursor: pointer;
+    font-family: Helvetica, Arial, sans-serif;
+}
+
+#ticketmaster-settings .pull-right {
+    float: right;
+}
+
+#ticketmaster-settings .text-center {
+    text-align: center;
+}
+
+#ticketmaster-settings .widget_api_key__field {
+    position: relative;
+}
+
+#ticketmaster-settings .widget_api_key {
+    padding-right: 16px;
+}
+
+#ticketmaster-settings .widget_api_key__question {
+    position: absolute;
+    top: 16px;
+    right: -24px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.7;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+#ticketmaster-settings label.error {
+    color: #D0021B;
+}
+
+#ticketmaster-settings input.error {
+    border: 1px solid #D0021B;
+}
+
+#ticketmaster-settings .main-widget-config-form .error-message {
+    font-size: 11px;
+    font-weight: normal;
+    font-style: normal;
+    font-stretch: normal;
+    line-height: 16px;
+    color: #D0021B;
+    margin-top: -15px;
+}
+
+#ticketmaster-settings .widget_api_key__question:before, .widget_api_key__question:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+#ticketmaster-settings .widget_api_key__question:before {
+    opacity: 0;
+    background-image: url('../img/question-ic-blue.svg');
+}
+
+#ticketmaster-settings .widget_api_key__question:after {
+    opacity: 0.7;
+    background-image: url('../img/question-ic-grey.svg');
+}
+
+#ticketmaster-settings .widget_api_key__question:hover:before {
+    opacity: 1;
+}
+
+#ticketmaster-settings .custom_select__arrow {
+    content: '';
+    position: absolute;
+    top: 37%;
+    right: 25px;
+    width: 15px;
+    height: 10px;
+    margin-top: -5px;
+    cursor: pointer;
+}
+
+#ticketmaster-settings .custom_select__arrow:before, #ticketmaster-settings .custom_select__arrow:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+.custom_select__field[disabled] + .custom_select__placeholder + .custom_select__list + .custom_select__arrow:before {
+    opacity: 0.5;
+}
+
+#ticketmaster-settings div.nav-tab-wrapper {
+    background: #fff;
+    padding: 45px 25px 45px 25px;
+}
+
+#ticketmaster-settings ul.nav-tab-list {
+    margin: 0 0 0 5px;
+    border: none;
+    padding-left: 0;
+    list-style: none;
+    box-sizing: border-box;
+    overflow: hidden;
+}
+
+#ticketmaster-settings ul.nav-tab-list li {
+    float: left;
+    margin: 0 7px 0 0;
+    position: relative;
+    display: block;
+    border-bottom: 2px solid #b7c9d3;
+}
+
+#ticketmaster-settings ul.nav-tab-list li a {
+    display: block;
+    position: relative;
+    font-size: 1.4em;
+    line-height: 2em;
+    font-style: normal;
+    padding: 0 20px;
+    text-align: center;
+    text-decoration: none;
+    white-space: nowrap;
+    color: #b7c9d3;
+    background: transparent;
+    outline: none;
+    border: none;
+    -webkit-border-radius: 0;
+    border-radius: 0;
+    margin: 0 0 0 -8px;
+    box-shadow: none;
+}
+
+#ticketmaster-settings ul.nav-tab-list li.active,
+#ticketmaster-settings ul.nav-tab-list li.active:active,
+#ticketmaster-settings ul.nav-tab-list li.focus {
+    border-bottom: 2px solid #009cde;
+    box-shadow: none;
+}
+
+#ticketmaster-settings ul.nav-tab-list li.active a {
+    color: #009cde;
+    outline: none;
+    box-shadow: none;
+}
+
+.ticketmaster-metaboxes {
+    background: white;
+    margin: 0 0 0 0;
+    padding: 0 25px 25px 25px;
+    overflow: hidden;
+}
+
+span.widget-title {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    margin: 0 auto 10px auto;
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+    color: #414141;
+}
+
+span.widget-type {
+    display: block;
+    font-size: 16px;
+    line-height: 24px;
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+    color: #b7c9d3;
+}
+
+span.delete-widget-impossible {
+    font-size: 12px;
+    line-height: 20px;
+    margin-top: 12px;
+    display: block;
+}
+
+span.delete-widget {
+    display: block;
+    float: left;
+    clear: both;
+    color: #b7c9d3;
+    padding: 3px 15px;
+    border: 2px solid #b7c9d3;
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    font-size: 12px;
+    border-radius: 4px;
+    margin-top: 30px;
+}
+
+span.delete-widget:hover {
+    border-color: #009cde;
+    color: #009cde;
+    cursor: pointer;
+}
+
+div#widgets-list table th {
+    padding: 15px;
+    background-color: #e9eef1;
+    font-weight: bold;
+    font-size: 16px;
+}
+
+div#widgets-list table th, div#widgets-list table td{
+    color: #768692;
+}
+
+div#widgets-list table td {
+    padding: 15px;
+}
+
+div#widgets-list table th#info{
+    width: 256px;
+}
+
+div#widgets-list tr:nth-child(even) {
+    background: rgba(183, 201, 211, 0.1);
+}
+
+div#widgets-list tr td {
+    border-bottom: 1px solid #e4e7e9;
+}
+
+div#widgets-list tr:last-child td {
+    border-bottom: 0;
+}
+
+div#widgets-list tr:nth-child(odd) {
+    background: #fff
+}
+
+#ticketmaster-settings .w-grid {
+    width: 100%;
+    position: relative;
+}
+
+#ticketmaster-settings .w-item {
+    float: left;
+    margin: 0 0 30px 0;
+    padding: 15px;
+    box-sizing: border-box;
+    border: solid 1px rgba(118, 134, 146, 0.2);
+    clear: both;
+    width: 100%;
+}
+
+#ticketmaster-settings .w-item .conf {
+    width: 30%;
+    margin: 0;
+    float: left;
+}
+
+#ticketmaster-settings .w-item .conf .info {
+}
+
+#ticketmaster-settings .w-item .wholder {
+    width: 70%;
+    float: left;
+}
+
+/* Modal for countdown */
+#ticketmaster-settings .fade {
+    opacity: 0;
+    visibility: hidden;
+    -webkit-transition: all 0.15s linear;
+    -o-transition: all 0.15s linear;
+    transition: all 0.15s linear; 
+}
+
+#ticketmaster-settings .fade.in {
+    opacity: 1; 
+    visibility: visible;
+}
+
+#ticketmaster-settings .in.modal { overflow-y: auto; }
+#ticketmaster-settings .modal-open {
+    overflow: hidden;
+}
+
+#ticketmaster-settings .modal {
+    overflow: hidden;
+    position: fixed;
+    opacity: 0;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 99999;
+    -webkit-overflow-scrolling: touch;
+    outline: 0;
+    background: rgba(0,0,0,0.4); 
+}
+
+#ticketmaster-settings .modal.fade .modal-dialog {
+    -webkit-transform: translate(0, -25%);
+    -ms-transform: translate(0, -25%);
+    -o-transform: translate(0, -25%);
+    transform: translate(0, -25%);
+    -webkit-transition: -webkit-transform 0.3s ease-out;
+    -moz-transition: -moz-transform 0.3s ease-out;
+    -o-transition: -o-transform 0.3s ease-out;
+    transition: transform 0.3s ease-out; 
+    width: 600px;
+    margin: 30px auto;
+}
+
+#ticketmaster-settings .modal.in .modal-dialog {
+    -webkit-transform: translate(0, 0);
+    -ms-transform: translate(0, 0);
+    -o-transform: translate(0, 0);
+    transform: translate(0, 0); 
+}
+
+#ticketmaster-settings .modal-open .modal {
+    overflow-x: hidden;
+    overflow-y: auto; 
+}
+
+#ticketmaster-settings .modal-dialog {
+    position: relative;
+    width: auto;
+    margin: 10px; 
+}
+
+#ticketmaster-settings .modal-content {
+    position: relative;
+    background-color: #fff;
+    border: 1px solid #999;
+    border: 1px solid rgba(0, 0, 0, 0.2);
+    border-radius: 6px;
+    -webkit-box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    box-shadow: 0 3px 9px rgba(0, 0, 0, 0.5);
+    background-clip: padding-box;
+    outline: 0; 
+}
+
+#ticketmaster-settings .modal-backdrop {
+    position: fixed;
+    top: 0;
+    right: 0;
+    bottom: 0;
+    left: 0;
+    z-index: 1040;
+    background-color: #000; 
+}
+
+#ticketmaster-settings .modal-backdrop.fade {
+    opacity: 0;
+    filter: alpha(opacity=0); 
+}
+
+#ticketmaster-settings .modal-backdrop.in {
+    opacity: 0.5;
+    filter: alpha(opacity=50); 
+}
+
+#ticketmaster-settings .modal-header {
+    padding: 15px;
+    border-bottom: 1px solid #e5e5e5;
+    min-height: 16.42857px; 
+}
+
+#ticketmaster-settings .modal-header .close {
+    margin-top: -2px; 
+}
+
+#ticketmaster-settings .modal-title {
+    margin: 0;
+    line-height: 1.42857; 
+}
+
+#ticketmaster-settings .modal-body {
+    position: relative;
+    padding: 15px; 
+}
+
+#ticketmaster-settings .modal-footer {
+    padding: 15px;
+    text-align: right;
+    border-top: 1px solid #e5e5e5; 
+}
+
+#ticketmaster-settings .modal-footer:before, .modal-footer:after {
+    content: " ";
+    display: table; 
+}
+
+#ticketmaster-settings .modal-footer:after {
+    clear: both; 
+}
+
+#ticketmaster-settings .modal-footer .btn + .btn {
+    margin-left: 5px;
+    margin-bottom: 0; 
+}
+
+#ticketmaster-settings .modal-footer .btn-group .btn + .btn {
+    margin-left: -1px; 
+}
+
+#ticketmaster-settings .modal-footer .btn-block + .btn-block {
+    margin-left: 0; 
+}
+
+#ticketmaster-settings .modal-scrollbar-measure {
+    position: absolute;
+    top: -9999px;
+    width: 50px;
+    height: 50px;
+    overflow: scroll; 
+}
+
+#ticketmaster-settings .modal-common .modal-content {
+    border-radius: 0;
+    -webkit-box-shadow: none;
+    box-shadow: none;
+    border-color: transparent; 
+}
+
+#ticketmaster-settings .modal-common .modal-content .modal-header {
+    border: none;
+    padding-top: 40px; 
+}
+
+#ticketmaster-settings .modal-common .modal-content .modal-header .modal-title {
+    color: #414141; 
+    text-align: center;
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+}
+
+#ticketmaster-settings .modal-common .modal-content .modal-header .close {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+    border: 0;
+    outline: none;
+    background: none;
+    height: 24px;
+    width: 24px;
+    z-index: 9999; 
+}
+
+#ticketmaster-settings .modal-common .modal-content .modal-header .close:hover {
+    cursor: pointer;
+}
+
+#ticketmaster-settings .modal-common .modal-content .modal-header .close:before, 
+#ticketmaster-settings .modal-common .modal-content .modal-header .close:after {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 24px;
+    height: 24px;
+    content: '';
+    background-image: url('../img/ic-close-grey.svg');
+    background-repeat: no-repeat;
+    background-position: center center;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out; 
+}
+
+#ticketmaster-settings #js_get_eventId_form > .col-sm-8 {
+    width: 65%;
+}
+
+#ticketmaster-settings .modal-common .modal-content .modal-header .close:hover:before {
+    opacity: 0; 
+}
+
+#ticketmaster-settings .modal-common .modal-content .modal-header .close:hover:after {
+    opacity: 1; 
+}
+
+#ticketmaster-settings .modal-common .modal-content .modal-body {
+    text-align: left; 
+}
+
+#ticketmaster-settings .modal-common .modal-content .modal-body:before, .modal-common .modal-content .modal-body:after {
+    content: " ";
+    display: table; 
+}
+
+#ticketmaster-settings .modal-common .modal-content .modal-body:after {
+    clear: both; 
+}
+
+#ticketmaster-settings .modal-common .modal-content .modal-body textarea {
+    resize: none; 
+}
+
+#ticketmaster-settings .modal-common .modal-content .modal-footer {
+    border: none;
+    margin-bottom: 38px;
+    padding: 10px 29px; 
+}
+
+#ticketmaster-settings .modal-common .modal-content .btn-submit {
+    width: 165px;
+    height: 50px;
+    color: #ffffff;
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+    text-transform: uppercase;
+    background-color: #009cde;
+    border: none;
+    border-radius: 4px; 
+}
+
+#ticketmaster-settings .modal-common .modal-content .btn-submit:hover, .modal-common .modal-content .btn-submit:focus, 
+#ticketmaster-settings .modal-common .modal-content .btn-submit:active {
+    outline: none;
+    text-decoration: none;
+    background-color: #2a7cc7;
+    color: #ffffff; 
+    cursor: pointer;
+}
+
+#ticketmaster-settings .modal-common .modal-content .btn-submit[disabled] {
+    background-color: #b7c9d3; 
+}
+
+#ticketmaster-settings .modal-common-sm .modal-dialog .modal-content .modal-title {
+    margin-top: 38px;
+    margin-bottom: 16px; 
+}
+
+#ticketmaster-settings .modal-common-sm .modal-body .modal-footer {
+    margin-bottom: 10px; 
+}
+
+#ticketmaster-settings .modal-common-sm .modal-body .modal-footer .btn-submit {
+    display: block;
+    margin: 0 auto; 
+}
+
+#ticketmaster-settings .config-block {
+  /*margin-bottom: 30px;*/ 
+}
+
+/*
+#ticketmaster-settings .config-block a:hover {
+    cursor: pointer;
+    color: #2a7cc7;
+    text-decoration: none;
+}
+*/
+
+#ticketmaster-settings .config-block {
+      padding-right: 24px;
+      padding-left: 24px; 
+}
+
+#ticketmaster-settings .config-block {
+    margin-bottom: 60px;
+    border-right: 1px solid #b7c9d3;
+    padding-right: 25px;
+    padding-left: 15px;
+    width: 33.33333%;
+}
+
+#ticketmaster-settings .col-lg-widget {
+	position: relative;
+    width: 66.66667%;
+}
+#ticketmaster-settings .col-lg-widget:after {
+    content: '';
+    position: absolute;
+    width: 100px;
+    height: 100%;
+    top: 0;
+    right: 0;
+    background: -moz-linear-gradient(left, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(left, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to right, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=1 );
+}
+
+#ticketmaster-settings .config_field__description {
+    display: block;
+    color: #b7c9d3;
+}
+
+@media (max-width: 1199px) {
+    #ticketmaster-settings .config-block {
+        width: 100%;
+        border: none;
+        padding-right: 15px;
+    }
+}
+
+#ticketmaster-settings .config-block label .config_field__description {
+    font-family: "TMSans-Regular", Helvetica, Arial, sans-serif; 
+    display: inline-block;
+}
+
+#ticketmaster-settings .config-block select::-ms-expand {
+    display: none; 
+}
+
+#ticketmaster-settings .config-block input[type=number] {
+    -moz-appearance: textfield;
+    -webkit-box-shadow: none;
+    box-shadow: none; 
+}
+#ticketmaster-settings .config-block input[type=number].error {
+      border-color: #D0021B; 
+}
+
+#ticketmaster-settings .config-block input[type=number]::-webkit-inner-spin-button,
+#ticketmaster-settings .config-block input[type=number]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+    appearance: none; 
+}
+
+#ticketmaster-settings .config-block .modal-body .get_eventId_results {
+    margin-top: -24px;
+    font-size: 0.75em; 
+}
+
+#ticketmaster-settings .config-block .modal-body .get_eventId_results span {
+    font-weight: bold; 
+}
+
+#ticketmaster-settings .config-block .modal-body #spinner {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    background: url("../img/loader.gif");
+    background-size: 100px 100px;
+    z-index: 1000;
+}
+
+#ticketmaster-settings .config-block .modal-body .list-group {
+    overflow-y: scroll;
+    width: 100%;
+    padding: 0 10px 0 15px;
+    box-sizing: border-box; 
+}
+
+#ticketmaster-settings .config-block .modal-body .list-group-item .thumbnail {
+    position: relative;
+    width: 100px;
+    height: 66px;
+    overflow: hidden;
+    float: left;
+    display: block;
+    margin: 2px 12px 0 0; 
+}
+
+#ticketmaster-settings .config-block .modal-body .list-group-item .thumbnail img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    width: 100%;
+    height: auto;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0; 
+}
+
+#ticketmaster-settings .config-block .modal-body .list-group-item .event-text-wrapper {
+    padding-right: 110px; 
+}
+
+#ticketmaster-settings .config-block .modal-body .list-group-item .event-text-wrapper .event-time {
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+    color: #414141;
+}
+
+#ticketmaster-settings .config-block .modal-body .list-group-item .event-time {
+    margin-bottom: 0; 
+}
+
+#ticketmaster-settings .config-block .modal-body .list-group-item .wrapper-set-eventId_btn {
+    position: absolute;
+    bottom: 10px;
+    right: 10px; 
+}
+
+#ticketmaster-settings .config-block .modal-body .list-group-item .wrapper-set-eventId_btn .btn-submit {
+    width: auto;
+    height: auto;
+    display: inline-block;
+    margin-bottom: 0;
+    font-weight: normal;
+    text-align: center;
+    vertical-align: middle;
+    touch-action: manipulation;
+    cursor: pointer;
+    background-image: none;
+    border: 1px solid transparent;
+    white-space: nowrap;
+    padding: 6px 12px;
+    font-size: 14px;
+    line-height: 1.42857;
+    border-radius: 4px;
+    -webkit-user-select: none;
+    -moz-user-select: none;
+    -ms-user-select: none;
+    user-select: none; 
+}
+
+#ticketmaster-settings .config-block .modal-body .list-group-item-heading {
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+}
+
+#ticketmaster-settings .list-group-item.row {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+#ticketmaster-settings .list-group {
+    margin-bottom: 20px;
+    padding-left: 0; }
+
+#ticketmaster-settings .list-group-item {
+    position: relative;
+    display: block;
+    padding: 10px 15px;
+    margin-left: 0;
+    margin-right: 0;
+    margin-bottom: -1px;
+    background-color: #fff;
+    border: 1px solid #ddd; 
+}
+
+#ticketmaster-settings .list-group-item:first-child {
+    border-top-right-radius: 4px;
+    border-top-left-radius: 4px; 
+}
+
+#ticketmaster-settings .list-group-item:last-child {
+    margin-bottom: 0;
+    border-bottom-right-radius: 4px;
+    border-bottom-left-radius: 4px; 
+}
+
+#ticketmaster-settings a.list-group-item,
+#ticketmaster-settings button.list-group-item {
+    color: #555; 
+}
+
+#ticketmaster-settings a.list-group-item .list-group-item-heading,
+#ticketmaster-settings button.list-group-item .list-group-item-heading {
+    color: #333; 
+}
+
+#ticketmaster-settings a.list-group-item:hover, 
+#ticketmaster-settings a.list-group-item:focus,
+#ticketmaster-settings button.list-group-item:hover,
+#ticketmaster-settings button.list-group-item:focus {
+    text-decoration: none;
+    color: #555;
+    background-color: #f5f5f5;
+}
+
+#ticketmaster-settings button.list-group-item {
+    width: 100%;
+    text-align: left; 
+}
+
+#ticketmaster-settings .list-group-item.disabled, 
+#ticketmaster-settings .list-group-item.disabled:hover, 
+#ticketmaster-settings .list-group-item.disabled:focus {
+    background-color: #eeeeee;
+    color: #777777;
+    cursor: not-allowed; 
+}
+
+#ticketmaster-settings .list-group-item.disabled .list-group-item-heading, 
+#ticketmaster-settings .list-group-item.disabled:hover .list-group-item-heading, 
+#ticketmaster-settings .list-group-item.disabled:focus .list-group-item-heading {
+    color: inherit; 
+}
+
+#ticketmaster-settings .list-group-item.disabled .list-group-item-text, 
+#ticketmaster-settings .list-group-item.disabled:hover .list-group-item-text, 
+#ticketmaster-settings .list-group-item.disabled:focus .list-group-item-text {
+    color: #777777; 
+}
+
+#ticketmaster-settings .list-group-item.active, 
+#ticketmaster-settings .list-group-item.active:hover, 
+#ticketmaster-settings .list-group-item.active:focus {
+    z-index: 2;
+    color: #fff;
+    background-color: #337ab7;
+    border-color: #337ab7; 
+}
+
+#ticketmaster-settings .list-group-item.active .list-group-item-heading,
+#ticketmaster-settings .list-group-item.active .list-group-item-heading > small,
+#ticketmaster-settings .list-group-item.active .list-group-item-heading > .small, 
+#ticketmaster-settings .list-group-item.active:hover .list-group-item-heading,
+#ticketmaster-settings .list-group-item.active:hover .list-group-item-heading > small,
+#ticketmaster-settings .list-group-item.active:hover .list-group-item-heading > .small, 
+#ticketmaster-settings .list-group-item.active:focus .list-group-item-heading,
+#ticketmaster-settings .list-group-item.active:focus .list-group-item-heading > small,
+#ticketmaster-settings .list-group-item.active:focus .list-group-item-heading > .small {
+    color: inherit; 
+}
+
+#ticketmaster-settings .list-group-item.active .list-group-item-text, 
+#ticketmaster-settings .list-group-item.active:hover .list-group-item-text, 
+#ticketmaster-settings .list-group-item.active:focus .list-group-item-text {
+    color: #c7ddef; 
+}
+
+#ticketmaster-settings .list-group-item-success {
+    color: #3c763d;
+    background-color: #dff0d8; 
+}
+
+#ticketmaster-settings a.list-group-item-success,
+#ticketmaster-settings button.list-group-item-success {
+    color: #3c763d; 
+}
+
+#ticketmaster-settings a.list-group-item-success .list-group-item-heading,
+#ticketmaster-settings button.list-group-item-success .list-group-item-heading {
+    color: inherit; 
+}
+
+#ticketmaster-settings a.list-group-item-success:hover, a.list-group-item-success:focus,
+#ticketmaster-settings button.list-group-item-success:hover,
+#ticketmaster-settings button.list-group-item-success:focus {
+    color: #3c763d;
+    background-color: #d0e9c6; 
+}
+
+#ticketmaster-settings a.list-group-item-success.active, 
+#ticketmaster-settings a.list-group-item-success.active:hover, 
+#ticketmaster-settings a.list-group-item-success.active:focus,
+#ticketmaster-settings button.list-group-item-success.active,
+#ticketmaster-settings button.list-group-item-success.active:hover,
+#ticketmaster-settings button.list-group-item-success.active:focus {
+    color: #fff;
+    background-color: #3c763d;
+    border-color: #3c763d; 
+}
+
+#ticketmaster-settings .list-group-item-info {
+    color: #31708f;
+    background-color: #d9edf7; 
+}
+
+#ticketmaster-settings a.list-group-item-info,
+#ticketmaster-settings button.list-group-item-info {
+    color: #31708f; 
+}
+
+#ticketmaster-settings a.list-group-item-info .list-group-item-heading,
+#ticketmaster-settings button.list-group-item-info .list-group-item-heading {
+    color: inherit; 
+}
+
+#ticketmaster-settings a.list-group-item-info:hover, 
+#ticketmaster-settings a.list-group-item-info:focus,
+#ticketmaster-settings button.list-group-item-info:hover,
+#ticketmaster-settings button.list-group-item-info:focus {
+    color: #31708f;
+    background-color: #c4e3f3; 
+}
+
+#ticketmaster-settings a.list-group-item-info.active, 
+#ticketmaster-settings a.list-group-item-info.active:hover, 
+#ticketmaster-settings a.list-group-item-info.active:focus,
+#ticketmaster-settings button.list-group-item-info.active,
+#ticketmaster-settings button.list-group-item-info.active:hover,
+#ticketmaster-settings button.list-group-item-info.active:focus {
+    color: #fff;
+    background-color: #31708f;
+    border-color: #31708f; 
+}
+
+#ticketmaster-settings .list-group-item-warning {
+    color: #8a6d3b;
+    background-color: #fcf8e3; 
+}
+
+#ticketmaster-settings a.list-group-item-warning,
+#ticketmaster-settings button.list-group-item-warning {
+    color: #8a6d3b; 
+}
+
+#ticketmaster-settings a.list-group-item-warning .list-group-item-heading,
+#ticketmaster-settings button.list-group-item-warning .list-group-item-heading {
+    color: inherit; 
+}
+
+#ticketmaster-settings a.list-group-item-warning:hover, a.list-group-item-warning:focus,
+#ticketmaster-settings button.list-group-item-warning:hover,
+#ticketmaster-settings button.list-group-item-warning:focus {
+    color: #8a6d3b;
+    background-color: #faf2cc; 
+}
+
+#ticketmaster-settings a.list-group-item-warning.active, 
+#ticketmaster-settings a.list-group-item-warning.active:hover, 
+#ticketmaster-settings a.list-group-item-warning.active:focus,
+#ticketmaster-settings button.list-group-item-warning.active,
+#ticketmaster-settings button.list-group-item-warning.active:hover,
+#ticketmaster-settings button.list-group-item-warning.active:focus {
+    color: #fff;
+    background-color: #8a6d3b;
+    border-color: #8a6d3b; 
+}
+
+#ticketmaster-settings .list-group-item-danger {
+    color: #a94442;
+    background-color: #f2dede; 
+}
+
+#ticketmaster-settings a.list-group-item-danger,
+#ticketmaster-settings button.list-group-item-danger {
+    color: #a94442; 
+}
+
+#ticketmaster-settings a.list-group-item-danger .list-group-item-heading,
+#ticketmaster-settings button.list-group-item-danger .list-group-item-heading {
+    color: inherit; 
+}
+
+#ticketmaster-settings a.list-group-item-danger:hover, a.list-group-item-danger:focus,
+#ticketmaster-settings button.list-group-item-danger:hover,
+#ticketmaster-settings button.list-group-item-danger:focus {
+    color: #a94442;
+    background-color: #ebcccc; 
+}
+
+#ticketmaster-settings a.list-group-item-danger.active, 
+#ticketmaster-settings a.list-group-item-danger.active:hover, 
+#ticketmaster-settings a.list-group-item-danger.active:focus,
+#ticketmaster-settings button.list-group-item-danger.active,
+#ticketmaster-settings button.list-group-item-danger.active:hover,
+#ticketmaster-settings button.list-group-item-danger.active:focus {
+    color: #fff;
+    background-color: #a94442;
+    border-color: #a94442; 
+}
+
+#ticketmaster-settings .list-group-item-heading {
+    margin-top: 0;
+    margin-bottom: 5px; 
+}
+
+#ticketmaster-settings .list-group-item-text {
+    margin-bottom: 0;
+    line-height: 1.3; 
+}
+
+#ticketmaster-settings .position-relative {
+    position: relative;
+}
+
+#ticketmaster-settings .dt-ico {
+    content: '';
+    position: absolute;
+    right: 21px;
+    top: 9px;
+    width: 28px;
+    height: 28px;
+    background: url("../img/ic-input-controls.svg") 1px -28px no-repeat;
+}
+
+#ticketmaster-settings .dt-ico:hover {
+    cursor: pointer;
+    background-position: -28px -28px;
+}
+
+
+/* Calendar */
+div[w-theme="calendar"]{
+    position: relative;
+    height: 200px;
+    width: 150px;
+    overflow: hidden;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    font-family: 'TMSans-Regular';
+}
+
+div[w-theme="calendar"] a,
+div[w-theme="calendar"] a:hover,
+div[w-theme="calendar"] a:focus,
+div[w-theme="calendar"] a:active{
+    text-decoration: none;
+}
+
+div[w-theme="calendar"] .event-pretended-link {
+    cursor: pointer;
+    -webkit-transition: background 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    -webkit-transition: background 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    transition: background 0.2s ease-in-out, color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+div[w-theme="calendar"] .event-pretended-link:hover {
+    opacity: 0.7;
+}
+
+div[w-theme="calendar"] .event-message-container {
+    width: 100%;
+    height: 273px;
+    overflow: hidden;
+    position: absolute;
+}
+
+div[w-theme="calendar"] .event-message-container.hide {
+    display: none;
+}
+
+div[w-theme="calendar"] .event-message,
+div[w-theme="calendar"] .event-message_ {
+    position: absolute;
+    padding: 16px 46px 16px 52px;
+    left: 10px;
+    right: 10px;
+    top: -50%;
+    border-radius: 4px;
+    font-family: "TMSans-Bold";
+    font-size: 14px;
+    line-height: 1.6;
+    color: #ffffff;
+    opacity: 0;
+    z-index: 10;
+    background: #7356a5 url("http://ticketmaster-api-staging.github.io/assets/widgets/1.0.0/img/message_logo.svg") no-repeat 16px 50%;
+    -webkit-transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    -moz-transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out;
+    transition: top 0.5s ease-in-out, opacity 0.5s ease-in-out;
+}
+
+div[w-theme="calendar"] .event-message_-visible {
+    top: 10px;
+    opacity: 1;
+}
+
+div[w-theme="calendar"] .event-message-visible {
+    top: 10px;
+    opacity: 1;
+}
+
+div[w-theme="calendar"] .event-message__btn {
+    position: absolute;
+    width: 16px;
+    height: 16px;
+    right: 15px;
+    top: 15px;
+    cursor: pointer;
+    background: url("http://ticketmaster-api-staging.github.io/assets/widgets/1.0.0/img/ic-close-small-white.svg") no-repeat 50% 50%;
+}
+
+div[w-theme="calendar"] .events-root-container{
+    overflow: hidden;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    background-color: #e5e5e5;
+    border-style: solid;
+    border-color: #ccc;
+}
+
+div[w-theme="calendar"] ul{
+    margin: 0;
+    padding: 0;
+    -webkit-transition: margin 0.5s ease-in-out;
+    -moz-transition: margin 0.5s ease-in-out;
+    transition: margin 0.5s ease-in-out;
+    -webkit-transform: translate3d(0, 0, 0);
+    -moz-transform: translate3d(0, 0, 0);
+    -ms-transform: translate3d(0, 0, 0);
+    transform: translate3d(0, 0, 0);
+}
+
+/*  question  */
+div[w-theme="calendar"] .event-question {
+    position: absolute;
+    z-index: 1;
+    top: 10px;
+    right: 10px;
+    width: 16px;
+    height: 16px;
+    opacity: 0.7;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+    cursor: pointer;
+}
+
+div[w-theme="calendar"] .event-question:before,
+div[w-theme="calendar"] .event-question:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    background-position: center;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+div[w-theme="calendar"] .event-question:before {
+    opacity: 0;
+    background-image: url("http://ticketmaster-api-staging.github.io/assets/widgets/1.0.0/img/question-ic-blue.svg");
+}
+
+div[w-theme="calendar"] .event-question:after {
+    opacity: 0.7;
+    background-image: url("http://ticketmaster-api-staging.github.io/assets/widgets/1.0.0/img/question-ic-grey.svg");
+}
+
+div[w-theme="calendar"] .event-question:hover:before {
+    opacity: 1;
+}
+
+div[w-theme="calendar"] .event-question:hover:after {
+    opacity: 0;
+}
+
+
+/* slider controls */
+div[w-theme="calendar"] .events_control {
+    position: absolute;
+    cursor: pointer;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    -webkit-transition: opacity 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    -webkit-transition: opacity 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out, border-color 0.2s ease-in-out;
+    z-index: 10;
+}
+
+
+div[w-theme="calendar"] .events_control-horizontal {
+    top: 50%;
+    margin-top: -13px;
+}
+
+div[w-theme="calendar"] .events_control-vertical {
+    left: 50%;
+    margin-left: -13px;
+}
+
+div[w-theme="calendar"] .events_control-left {
+    left: 0;
+    border-width: 13px 8px 13px 5px;
+    border-color: transparent rgba(255, 255, 255, 0.5) transparent transparent;
+}
+
+div[w-theme="calendar"] .events_control-left:hover {
+    border-color: transparent #009cde transparent transparent;
+}
+
+div[w-theme="calendar"] .events_control-right {
+    right: 0;
+    border-width: 13px 5px 13px 8px;
+    border-color: transparent transparent transparent rgba(255, 255, 255, 0.5);
+}
+
+div[w-theme="calendar"] .events_control-right:hover {
+    border-color: transparent transparent transparent #009cde;
+}
+
+div[w-theme="calendar"] .events_control-top {
+    top: 0;
+    border-width: 5px 13px 8px 13px;
+    border-color: transparent transparent rgba(255, 255, 255, 0.5) transparent;
+}
+
+div[w-theme="calendar"] .events_control-top:hover {
+    border-color: transparent transparent #009cde transparent;
+}
+
+div[w-theme="calendar"] .events_control-bottom {
+    bottom: 0;
+    border-width: 8px 13px 5px 13px;
+    border-color: rgba(255, 255, 255, 0.5) transparent transparent transparent;
+}
+
+div[w-theme="calendar"] .events_control-bottom:hover {
+    border-color: #009cde transparent transparent transparent;
+}
+
+div[w-theme="calendar"] .events_control-hidden {
+    display: none;
+}
+
+div[w-theme="calendar"] .events_control-hidden:hover {
+    border-color: transparent;
+    cursor: default;
+    display: block;
+}
+
+
+div[w-theme="calendar"] .bg-cover {
+    width: 100%;
+    height: 100%;
+    display: block;
+    overflow: hidden;
+    background-size: cover;
+    background-position: center top;
+    background-repeat: no-repeat;
+}
+
+div[w-theme="calendar"] .bg-cover-default {
+    background: rgba(183, 201, 211, 0.2) url("http://ticketmaster-api-staging.github.io/assets/widgets/1.0.0/img/tm-logo-short-big.svg") no-repeat center center;
+    border: solid 1px rgba(183, 201, 211, 0.2);
+    background-size: 24px;
+}
+
+
+/* Theme special styles */
+div[w-theme="calendar"] .event-wrapper {
+    display: block;
+    position: relative;
+    height: 200px;
+    width:150px;
+    float: left;
+    overflow: hidden;
+    font-size: 12px;
+    line-height: 1.3;
+    color: #fff;
+}
+
+div[w-theme="calendar"] .event-content-wraper,
+div[w-theme="calendar"] .event-wrapper:before {
+    position: absolute;
+    left: 0;
+    right: 0;
+    top: 0;
+    bottom: 0;
+}
+
+div[w-theme="calendar"] .event-wrapper:before {
+    content: '';
+    background: -moz-linear-gradient(top, rgba(0,0,0,0) 30%, rgba(0,0,0,0.9) 100%), -moz-linear-gradient(top, rgba(0,0,0,0.12) 0%, rgba(0,0,0,0) 15%);
+    background: -webkit-linear-gradient(top, rgba(0,0,0,0) 30%,rgba(0,0,0,0.9) 100%), -webkit-linear-gradient(top, rgba(0,0,0,0.12) 0%,rgba(0,0,0,0) 15%);
+    background-image: linear-gradient(to bottom, rgba(0,0,0,0) 30%, rgba(0,0,0,0.9) 100%), linear-gradient(to bottom, rgba(0,0,0,0.12) 0%, rgba(0,0,0,0) 15%);
+}
+
+div[w-theme="calendar"] .event-content-wraper {
+    width: 100%;
+    padding: 115px 30px 0;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    color: #fff;
+    text-align: left;
+}
+
+div[w-theme="calendar"] .event-name{
+    display: block;
+    display: -webkit-box;
+    text-transform: uppercase;
+    font-size: 24px;
+    font-family: "TMSans-Bold";
+    margin-bottom: 20px;
+    line-height: 31px;
+    max-height: 62px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+div[w-theme="calendar"] .event-date-wraper{
+    display: block;
+    font-family: "TMSans-Bold";
+    margin-bottom: 11px;
+}
+
+div[w-theme="calendar"] .address-wrapper{
+    display: block;
+    display: -webkit-box;
+    height: 30px;
+    font-family: "TMSans-Light";
+    line-height: 1.3;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+    -webkit-box-orient: vertical;
+}
+
+div[w-theme="calendar"] .event-address{
+    display: inline;
+}
+
+div[w-theme="calendar"] .event-address:after{
+    content: ',\00a0';
+    display: inline-block;
+}
+
+div[w-theme="calendar"] .address-wrapper .event-address:last-child:after{
+    display: none;
+}
+
+div[w-theme="calendar"] .category-wrapper{
+    display: block;
+    font-family: "TMSans-Bold";
+}
+
+div[w-theme="calendar"] .address-wrapper,
+div[w-theme="calendar"] .category-wrapper{
+    opacity: 0.7;
+}
+
+div[w-theme="calendar"] .event-category:before{
+    content: ', ';
+}
+
+div[w-theme="calendar"] .event-category:first-child:before{
+    content: '';
+}
+
+div[w-theme="calendar"] .legal-notice {
+    display: block;
+    float: left;
+    margin: 0 0 0 15px;
+    color: #b7c9d3;
+    font-size: 14px;
+    line-height: 2.8;
+}
+
+div[w-theme="calendar"] .legal-notice:hover,
+div[w-theme="calendar"] .legal-notice:focus,
+div[w-theme="calendar"] .legal-notice:active{
+    color: #019cde;
+}
+
+div[w-theme="calendar"] .events-counter {
+    display: block;
+    float: right;
+    margin: 0 15px 0 0;
+    font-size: 14px;
+    line-height: 2.8;
+    color: #b7c9d3;
+    font-family: "TMSans-Bold";
+    text-align: right;
+}
+
+div[w-theme="calendar"] .event-logo-box {
+    position: absolute;
+    bottom: 16px;
+    left: 0;
+    width: 100%;
+    height: 44px;
+    background-color: rgba(255, 255, 255, 0.8);
+    z-index: 10;
+}
+
+div[w-theme="calendar"] .event-logo {
+    display: block;
+    position: absolute;
+    top: 15px;
+    right: 19px;
+    width: 160px;
+    height: 18px;
+    font-size: 11px;
+    color: #768692;
+    text-align: left;
+}
+
+div[w-theme="calendar"] .event-logo:before {
+    content: '';
+    position: absolute;
+    left: 60px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+div[w-theme="calendar"] .event-logo:before {
+    background-image: url("http://ticketmaster-api-staging.github.io/assets/widgets/1.0.0/img/tm-gray-logo.svg");
+    background-size: 98px;
+}
+
+div[w-theme="calendar"] .event-logo-box-c {
+    text-align: center;
+    width: 100%;
+    height: 20px;
+    margin-top: 12px;
+}
+
+div[w-theme="calendar"] .event-logo-c {
+    display: block;
+    position: relative;
+    width: 160px;
+    height: 18px;
+    font-size: 11px;
+    color: #768692;
+    text-align: left;
+    margin: 0 auto;
+}
+
+div[w-theme="calendar"] .event-logo-c:after {
+    content: '';
+    position: absolute;
+    left: 60px;
+    right: 0;
+    top: 0;
+    bottom: 0;
+    background-repeat: no-repeat;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -moz-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+div[w-theme="calendar"] .event-logo-c:after {
+    background-image: url("http://ticketmaster-api-staging.github.io/assets/widgets/1.0.0/img/tm-gray-logo.svg");
+    background-size: 98px;
+}
+
+/*group*/
+div[w-theme="calendar"] .event-group {
+    width: 100%;
+}
+
+/* BUY NOW */
+div[w-theme="calendar"] .event-buy-btn {
+    z-index: 15;
+    position: absolute;
+    left: 30px;
+    bottom: 27px;
+    width: 74px;
+    height: 24px;
+    padding-top: 5px;
+    border-radius: 4px;
+    background-color: #009cde;
+    -moz-box-sizing: border-box;
+    -webkit-box-sizing: border-box;
+    box-sizing: border-box;
+    font-family: "TMSans-Bold";
+    font-size: 11px;
+    line-height: 16px;
+    color: #ffffff;
+    text-align: center;
+    -webkit-transition: background-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+    transition: background-color 0.2s ease-in-out, opacity 0.2s ease-in-out;
+}
+
+div[w-theme="calendar"] .event-buy-btn:hover {
+    background-color: #2A7CC7;
+}
+
+div[w-theme="calendar"] .event-buy-btn[href=''],
+div[w-theme="calendar"] .event-buy-btn[href='']:hover {
+    /*background-color: #ccc;*/
+    cursor: default;
+    /*opacity: 0.5;*/
+    opacity: 0;
+}
+
+
+/* Common styles for all themes */
+div[w-theme="calendar"]{
+    position: relative;
+    height: 400px;
+    width: 300px;
+    overflow: hidden;
+    -moz-box-sizing: content-box;
+    -webkit-box-sizing: content-box;
+    box-sizing: content-box;
+    font-family: 'TMSans-Regular', Arial, serif;
+    border: 1px solid #b2c3cb;
+    background: #fff;
+    border-radius: 5px;
+    text-align: center;
+    overflow: hidden;
+    position: relative;
+    z-index:10;
+}
+
+div[w-theme="calendar"] .tabs {
+    height: 70px;
+    padding-top: 5px;
+    background: #f1f4f6;
+}
+
+div[w-theme="calendar"] .tabs span {
+    font-family: 'TMSans-Bold', Arial, serif;
+    font-size: 11px;
+    text-transform: uppercase;
+    padding: 2px 10px 0 10px;
+    color: #b7c9d3;
+    border: 1px solid #b7c9d2;
+    border-left: none;
+    display: inline-block;
+    cursor: pointer;
+}
+
+div[w-theme="calendar"] .tabs span:hover {
+    background-color: #dfe6ea;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .tabs span:hover {
+    background-color: #5e5f60;
+}
+
+div[w-theme="calendar"] .tabs span:first-child {
+    border-left: 1px solid #b7c9d2;
+    border-radius: 4px 0 0 4px;
+}
+
+div[w-theme="calendar"] .tabs span:last-child {
+    border-radius: 0 4px 4px 0;
+}
+
+div[w-theme="calendar"] .tabs span.active {
+    background: #b7c9d2;
+    color: #fff;
+}
+
+div[w-theme="calendar"] .tab.active {
+    display: block;
+}
+div[w-theme="calendar"] .tab {
+    display: none;
+}
+
+div[w-theme="calendar"] .weekSсheduler {
+    background: #fff;
+    padding-top: 0;
+    height: 273px;
+    position: relative;
+}
+
+div[w-theme="calendar"] .weekSсheduler .top-gradient {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    z-index: 9;
+    top:50px;
+    background: -moz-linear-gradient(top, rgba(255,255,255,1) 0%, rgba(255,255,255,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,1) 0%,rgba(255,255,255,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffffff', endColorstr='#00ffffff',GradientType=0 );
+}
+
+div[w-theme="calendar"] .weekSсheduler .bottom-gradient {
+    position: absolute;
+    width: 100%;
+    height: 10px;
+    z-index: 9;
+    bottom: -3px;
+    left: 0;
+    background: -moz-linear-gradient(top, rgba(255,255,255,0) 0%, rgba(255,255,255,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    background: linear-gradient(to bottom, rgba(255,255,255,0) 0%,rgba(255,255,255,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#00ffffff', endColorstr='#ffffff',GradientType=0 );
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .weekSсheduler .top-gradient {
+    background: -moz-linear-gradient(top, rgba(65,65,65,1) 0%, rgba(65,65,65,0) 100%);
+    background: -webkit-linear-gradient(top, rgba(65,65,65,1) 0%,rgba(65,65,65,0) 100%);
+    background: linear-gradient(to bottom, rgba(65,65,65,1) 0%,rgba(65,65,65,0) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#414141', endColorstr='#414141',GradientType=0 );
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .weekSсheduler .bottom-gradient {
+    background: -moz-linear-gradient(top, rgba(65,65,65,0) 0%, rgba(65,65,65,1) 100%);
+    background: -webkit-linear-gradient(top, rgba(65,65,65,0) 0%,rgba(65,65,65,1) 100%);
+    background: linear-gradient(to bottom, rgba(65,65,65,0) 0%,rgba(65,65,65,1) 100%);
+    filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#414141', endColorstr='#414141',GradientType=0 );
+}
+
+div[w-theme="calendar"] .weekSсheduler .days {
+    width: 270px;
+    height: 258px;
+    margin-left: 17px;
+    padding-top: 15px;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .d {
+    display: inline-block;
+    width: 25px;
+    height: 28px;
+    text-align: center;
+    font-size: 12px;
+    color: #b7c9d3;
+    margin: 0 5px;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .d .round {
+    width: 16px;
+    height: 16px;
+    border-radius: 50%;
+    background: #009cde;
+    display: block;
+    margin-left: -1px;
+    margin-top: 2px;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .d .round:hover {
+    cursor: pointer;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .popup {
+    width: 265px;
+    height: 185px;
+    overflow: hidden;
+    padding: 13px 10px;
+    position: absolute;
+    background: #768692;
+    color: #fff;
+    left: 0;
+    top: 25px;
+    z-index: 10;
+    display: none;
+    text-align: left;
+    border-radius: 4px;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .popup.single,
+div[w-theme="calendar"] .weekSсheduler .days .popup-up.single {
+    height: auto;
+    max-height: 187px;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .popup-up {
+    width: 265px;
+    height: 190px;
+    overflow: hidden;
+    padding: 13px 10px;
+    position: absolute;
+    background: #768692;
+    color: #fff;
+    left: 0;
+    bottom: 24px;
+    z-index: 10;
+    display: none;
+    text-align: left;
+    border-radius: 4px;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .tail {
+    width:10px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    margin: 7px 0 0 2px;
+    display: none;
+    z-index: 10;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .tail-up {
+    width:10px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    margin: -17px 0 0 2px;
+    display: none;
+    z-index: 10;
+}
+
+div[w-theme="calendar"] .tail.show, div[w-theme="calendar"] .tail-up.show {
+    display: block !important;
+}
+
+div[w-theme="calendar"] .popup, div[w-theme="calendar"] .popup-up {
+    box-sizing: border-box;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .tail:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent #768692 transparent;
+    position: absolute;
+    top: -5px;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .tail-up:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #768692 transparent transparent transparent;
+    position: absolute;
+    top: -5px;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .popup .event,
+div[w-theme="calendar"] .weekSсheduler .days .popup-up .event {
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(65, 65, 65, 0.2);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .popup .event:last-child,
+div[w-theme="calendar"] .weekSсheduler .days .popup-up .event:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .popup .event .img,
+div[w-theme="calendar"] .weekSсheduler .days .popup-up .event .img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    display: block;
+    margin-top: 2px;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .popup .event .event-holder,
+div[w-theme="calendar"] .weekSсheduler .days .popup-up .event .event-holder {
+    overflow: hidden;
+    display: block;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .popup .event .event-holder .name,
+div[w-theme="calendar"] .weekSсheduler .days .popup .event .event-holder .name:hover,
+div[w-theme="calendar"] .weekSсheduler .days .popup-up .event .event-holder .name,
+div[w-theme="calendar"] .weekSсheduler .days .popup-up .event .event-holder .name:hover {
+    font-family: "TMSans-Bold";
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    margin-bottom: 7px;
+    max-height: 33px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .popup .event .event-holder .date,
+div[w-theme="calendar"] .weekSсheduler .days .popup-up .event .event-holder .date {
+    font-family: "TMSans-Bold";
+    font-size: 11px;
+    line-height: 14px;
+    color: #fff;
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 4px;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .popup .event .event-holder .place,
+div[w-theme="calendar"] .weekSсheduler .days .popup-up .event .event-holder .place {
+    font-family: "TMSans-Light";
+    font-size: 11px;
+    line-height: 14px;
+    color: #fff;
+    opacity: 0.7;
+    display: block;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .popup:focus,
+div[w-theme="calendar"] .weekSсheduler .days .popup-up:focus {
+    outline: none;
+    border: none;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .popup.show,
+div[w-theme="calendar"] .weekSсheduler .days .popup-up.show {
+    display: block;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .d:first-child {
+    margin-left: 24px;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .d:nth-child(7) {
+    margin-right: 0;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .time-wrapper .time-holder .d:last-child {
+    margin-right:0;
+    border-right: none;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .d.active {
+    font-family: 'TMSans-Bold', Arial, serif;
+    color: #768692;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .d .num {
+    display: block;
+}
+
+div[w-theme="calendar"] .weekSсheduler .ss-wrapper {
+    overflow : hidden;
+    height   : 100%;
+    position : relative;
+    z-index  : 1;
+    float: left;
+}
+
+div[w-theme="calendar"] .weekSсheduler .ss-content {
+    height          : 100%;
+    width           : 100%;
+    padding         : 0 32px 0 0;
+    position        : relative;
+    overflow        : auto;
+    -moz-box-sizing : border-box;
+    box-sizing      : border-box;
+}
+
+div[w-theme="calendar"] .weekSсheduler .ss-scroll {
+    position            : relative;
+    background          : rgba(153, 153, 153, .2);
+    width               : 6px;
+    border-radius       : 4px;
+    top                 : 0;
+    z-index             : 2;
+    cursor              : pointer;
+    opacity: 0;
+    transition: opacity 0.25s linear;
+}
+
+div[w-theme="calendar"] .weekSсheduler .ss-container:hover .ss-scroll {
+    opacity: 1;
+}
+
+div[w-theme="calendar"] .weekSсheduler .popup .ss-content,
+div[w-theme="calendar"] .weekSсheduler .popup-up .ss-content {
+    width: 120% !important;
+}
+
+div[w-theme="calendar"] .weekSсheduler .popup.single .ss-content,
+div[w-theme="calendar"] .weekSсheduler .popup-up.single .ss-content {
+    width: 110% !important;
+}
+
+div[w-theme="calendar"] .weekSсheduler .popup .ss-scroll,
+div[w-theme="calendar"] .weekSсheduler .popup-up .ss-scroll {
+    right: -243px !important;
+    background-color: rgba(255,255,255,0.2);
+}
+
+div[w-theme="calendar"] .weekSсheduler .ss-grabbed {
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .time-wrapper {
+    width: 275px;
+    height: 220px;
+    margin: 0 auto;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .time-wrapper .time-holder {
+    width:280px;
+    height: auto;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .time-wrapper .time-holder .t {
+    width: 272px;
+    border-top: 1px dashed rgba(183, 201, 211, 0.6);
+    margin: 0;
+    padding: 0;
+    position: relative;
+    float: left;
+    overflow: visible;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .time-wrapper .time-holder .tl {
+    display: block;
+    float: left;
+    text-align: left;
+    width: 30px;
+    height: 20px;
+    font-size: 8px;
+    line-height: 20px;
+    margin: 0;
+    padding: 0;
+}
+
+div[w-theme="calendar"] .weekSсheduler .days .time-wrapper .time-holder .d {
+    display: block;
+    float: left;
+    width: 24px;
+    height: 20px;
+    border-right: 1px solid rgba(118, 134, 146, 0.1);
+    margin: 0 5px;
+    padding: 0;
+}
+
+/* Selectors */
+div[w-theme="calendar"] .sliderLeftSelector,
+div[w-theme="calendar"] .sliderRightSelector {
+    position: absolute;
+    float: left;
+    left: 10px;
+    top: 35px;
+}
+
+div[w-theme="calendar"] .sliderRightSelector {
+    left: auto;
+    right: 10px;
+    width: 122px;
+}
+
+div[w-theme="calendar"] .selector-title {
+    text-align: left;
+    font-family: 'TMSans-Bold', Arial, serif;
+    font-size: 14px;
+    display: inline-block;
+    position: relative;
+    clear: both;
+    font-size: 14px;
+    line-height: 2em;
+    padding-right: 2em;
+    padding-left: 0;
+    color: #b7c9d3;
+    border-bottom: 2px solid #f1f5f7;
+    -webkit-transition: color 0.2s ease-in-out;
+    -o-transition: color 0.2s ease-in-out;
+    transition: color 0.2s ease-in-out;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+    text-shadow: none;
+    border: none;
+}
+
+div[w-theme="calendar"] .selector-title:after {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 1.5px solid #b7c9d3;
+    border-top: 1.5px solid #b7c9d3;
+    transform: rotate(136deg);
+    background: none;
+}
+
+div[w-theme="calendar"] .selector-title:hover:after {
+    border-color: #009cde;
+    opacity:1;
+    transform: rotate(136deg);
+    top: 8px;
+}
+
+div[w-theme="calendar"] .selector-title.open:after,
+div[w-theme="calendar"] .selector-title.open:hover:after {
+    position: absolute;
+    right: 0;
+    top: 8px;
+    content: "";
+    display: inline-block;
+    width: 8px;
+    height: 8px;
+    border-right: 1.5px solid #b7c9d3;
+    border-top: 1.5px solid #b7c9d3;
+    transform: rotate(136deg);
+    background: none;
+    border-color: #009cde;
+    opacity:1;
+    transform: rotate(-45deg);
+    top: 8px;
+}
+
+div[w-theme="calendar"] .sliderRightSelector .selector-title {
+}
+
+div[w-theme="calendar"] .selector-title:before {display: none;}
+
+/*
+div[w-theme="calendar"] .selector-title:before,
+div[w-theme="calendar"] .selector-title:after {
+    content: '';
+    position: absolute;
+    right: 0;
+    top: 50%;
+    width: 15px;
+    height: 10px;
+    margin-top: -5px;
+    background-position: center center;
+    background-repeat: no-repeat;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out;
+}
+
+div[w-theme="calendar"] .selector-title:before {
+    opacity: 0;
+    background-image: url("http://ticketmaster-api-staging.github.io/assets/widgets/1.0.0/img/small-shevron-hover.svg");
+}
+
+div[w-theme="calendar"] .selector-title:after {
+    background-image: url("http://ticketmaster-api-staging.github.io/assets/widgets/1.0.0/img/small-shevron.svg");
+
+}
+div[w-theme="calendar"] .selector-title.open:after,
+div[w-theme="calendar"] .selector-title.open:before {
+    -ms-transform: rotate(180deg);
+    -webkit-transform: rotate(180deg);
+    transform: rotate(180deg);
+}
+
+div[w-theme="calendar"] .selector-title.open:hover:after {
+    opacity: 0;
+}
+
+div[w-theme="calendar"] .selector-title:hover {
+    color: #189ddc;
+    cursor: pointer;
+}
+
+div[w-theme="calendar"] .selector-title:hover:before {
+    opacity: 1;
+}
+
+div[w-theme="calendar"] .selector-title:hover:after {
+    opacity: 0;
+}
+*/
+
+div[w-theme="calendar"] .selector-content {
+    font-family: 'TMSans-Bold', Arial, serif;
+    font-size: 14px;
+    display: none;
+    width: auto;
+    background: #b7c9d2;
+    position: absolute;
+    z-index: 10;
+    left: -15px;
+    border-radius: 0 0 4px 4px;
+    padding: 10px 0 10px 0;
+    outline: none;
+}
+
+div[w-theme="calendar"] .selector-content.show {
+    display: block;
+}
+
+div[w-theme="calendar"] .selector-content span {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    padding: 0 1em;
+    box-sizing: content-box;
+    margin: 0 1%;
+    text-align: left;
+    line-height: 1.92em;
+    white-space: nowrap;
+    min-width: 86px;
+    -moz-user-select: none;
+    -o-user-select:none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+    -ms-user-select: none;
+    user-select: none;
+}
+
+div[w-theme="calendar"] .sliderRightSelector .selector-content span {
+    min-width: 120px;
+}
+
+div[w-theme="calendar"] .selector-content span:hover {
+    color: #189ddc;
+    cursor: pointer;
+}
+
+div[w-theme="calendar"] .monthScheduler {
+    position: relative;
+    height: 273px;
+    vackground: #414141;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar {
+    margin: 0px auto;
+    padding: 0;
+    height: 273px;
+    background: #fff;
+}
+div[w-theme="calendar"][w-colorscheme="dark"] .monthScheduler .calendar {
+    background: #414141;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar table {
+    width: 100%;
+    border: 0;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar table td,
+div[w-theme="calendar"] .monthScheduler .calendar table th {
+    width: 36px;
+    height: 36px;
+    padding: 0;
+    margin: 0;
+    text-align: center;
+    display: inline-block;
+    border: 0;
+    padding-top: 7px;
+    font-size: 14px;
+    line-height: 24px;
+    margin: 0 2px;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar table th {
+    font-weight: normal;
+    background: none;
+    text-transform: uppercase;
+    color: #b7c9d3;
+    margin-top: 21px;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar table tr {
+    position: relative;
+    display: block;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar table td {
+    position: static;
+    vertical-align: middle;
+    box-sizing: border-box;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar table tr:nth-child(even) {
+    background: none;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar td.dis {
+    color: #d9d9d9;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar table td.today,
+div[w-theme="calendar"] .monthScheduler .calendar table td.today .round {
+    color: #208dcf;
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .round-holder {
+    width: 33px;
+    height: 33px;
+    display: block;
+    position: relative;
+}
+div[w-theme="calendar"] .monthScheduler .calendar .round {
+    width: 30px;
+    height: 30px;
+    background: #fff;
+    color: #768692;
+    border-radius: 50%;
+    border: 1px solid #208dcf;
+    display: block;
+    position: absolute;
+    font-weight: normal;
+    top: -4px;
+    padding-top: 3px;
+    box-sizing: border-box;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .round .count {
+    display: block;
+    position: absolute;
+    padding: 3px 5px;
+    border: 2px solid #fff;
+    color: #fff;
+    font-size: 10px;
+    right: -10px;
+    background: #208dcf;
+    font-weight: normal;
+    font-family: "TMSans-Regular", Helvetica, Arial, sans-serif;
+    border-radius: 12px;
+    top: -8px;
+    line-height: 10px;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .round:hover,
+div[w-theme="calendar"] .monthScheduler .calendar .round:hover .count,
+div[w-theme="calendar"] .monthScheduler .calendar .round-holder.active .round,
+div[w-theme="calendar"] .monthScheduler .calendar .round-holder.active .count {
+    cursor: pointer;
+    background: #ba1079;
+    color: #fff !important;
+    border-color: #ba1079;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .round:hover .count,
+div[w-theme="calendar"] .monthScheduler .calendar .round-holder.active .count {
+    border-color: #fff;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup {
+    width: 265px;
+    height: 185px;
+    overflow: hidden;
+    padding: 13px 10px;
+    position: absolute;
+    background: #768692;
+    color: #fff;
+    left: 17px;
+    top: 41px;
+    z-index: 10;
+    display: none;
+    text-align: left;
+    border-radius: 4px;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup.single,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up.single {
+    height: auto;
+    max-height: 185px;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up {
+    width: 265px;
+    height: 185px;
+    overflow: hidden;
+    padding: 13px 10px;
+    position: absolute;
+    background: #768692;
+    color: #fff;
+    left: 17px;
+    bottom: 37px;
+    z-index: 10;
+    display: none;
+    text-align: left;
+    border-radius: 4px;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .tail {
+    width:10px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    margin: 1px 0 0 12px;
+    display: none;
+    z-index: 10;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .tail-up {
+    width:10px;
+    height: 5px;
+    display: block;
+    position: absolute;
+    margin: -38px 0 0 12px;
+    display: none;
+    z-index: 10;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .tail:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 0 5px 5px 5px;
+    border-color: transparent transparent #768692 transparent;
+    position: absolute;
+    top: -5px;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .tail-up:before {
+    content: " ";
+    display: block;
+    width: 0;
+    height: 0;
+    border-style: solid;
+    border-width: 5px 5px 0 5px;
+    border-color: #768692 transparent transparent transparent;
+    position: absolute;
+    top: -5px;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup .event,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up .event {
+    display: block;
+    overflow: hidden;
+    border-bottom: 1px solid rgba(65, 65, 65, 0.2);
+    padding-bottom: 10px;
+    margin-bottom: 10px;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup .event:last-child,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up .event:last-child {
+    border-bottom: 0;
+    margin-bottom: 0;
+    padding-bottom: 0;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup .event .img,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up .event .img {
+    width: 30px;
+    height: 30px;
+    float: left;
+    margin-right: 10px;
+    display: block;
+    margin-top: 2px;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup .event .event-holder,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up .event .event-holder {
+    overflow: hidden;
+    display: block;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup .event .event-holder .name,
+div[w-theme="calendar"] .monthScheduler .calendar .popup .event .event-holder .name:hover,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up .event .event-holder .name,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up .event .event-holder .name:hover {
+    font-family: "TMSans-Bold";
+    font-size: 14px;
+    line-height: 18px;
+    text-transform: uppercase;
+    display: block;
+    color: #fff;
+    margin-bottom: 7px;
+    max-height: 33px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    -webkit-line-clamp: 2;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup .event .event-holder .date,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up .event .event-holder .date {
+    font-family: "TMSans-Bold";
+    font-size: 11px;
+    line-height: 14px;
+    color: #fff;
+    opacity: 0.7;
+    display: block;
+    margin-bottom: 4px;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup .event .event-holder .place,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up .event .event-holder .place {
+    font-family: "TMSans-Light";
+    font-size: 11px;
+    line-height: 14px;
+    color: #fff;
+    opacity: 0.7;
+    display: block;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup:focus,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up:focus {
+    outline: none;
+    border: none;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup.show,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up.show {
+    display: block;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .ss-wrapper {
+    overflow : hidden;
+    height   : 100%;
+    position : relative;
+    z-index  : 1;
+    float: left;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .ss-content {
+    height          : 100%;
+    width           : 100%;
+    padding         : 0 32px 0 0;
+    position        : relative;
+    overflow        : auto;
+    -moz-box-sizing : border-box;
+    box-sizing      : border-box;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .ss-scroll {
+    position            : relative;
+    background          : rgba(153, 153, 153, .2);
+    width               : 6px;
+    border-radius       : 4px;
+    top                 : 0;
+    z-index             : 2;
+    cursor              : pointer;
+    opacity: 0;
+    transition: opacity 0.25s linear;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .ss-container:hover .ss-scroll {
+    opacity: 1;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup .ss-content,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up .ss-content {
+    width: 120% !important;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup.single .ss-content,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up.single .ss-content {
+    width: 110% !important;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .popup .ss-scroll,
+div[w-theme="calendar"] .monthScheduler .calendar .popup-up .ss-scroll {
+    right: -243px !important;
+    background-color: rgba(255,255,255,0.2);
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .ss-grabbed {
+    user-select: none;
+    -o-user-select: none;
+    -moz-user-select: none;
+    -khtml-user-select: none;
+    -webkit-user-select: none;
+}
+
+div[w-theme="calendar"] .monthScheduler .calendar .month-update {
+    display: none;
+}
+
+div[w-theme="calendar"] .year {
+    margin: 0px auto;
+    padding: 0;
+    height: 273px;
+    text-align: center;
+    position: relative;
+    background: #fff;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .year {
+    background: #414141;
+}
+
+div[w-theme="calendar"] .year .monthes-container {
+    width: 225px;
+    margin: 0 auto;
+    font-size: 14px;
+    color: #b7c9d3;
+    padding-top: 20px;
+}
+
+div[w-theme="calendar"] .year .month {
+    display: block;
+    float: left;
+    width: 70px;
+    height: 65px;
+    font-size: 14px;
+    text-align: center;
+}
+
+div[w-theme="calendar"] .year .month .name {
+    display: block;
+    text-align: center;
+    clear: both;
+    margin: 0 auto 2px auto;
+}
+
+div[w-theme="calendar"] .year .month .name.current {
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+    color: #768692;
+}
+
+div[w-theme="calendar"] .year .month .count {
+    display: inline-block;
+    clear: both;
+    padding: 5px 7px;
+    font-size: 12px;
+    color: #fff;
+    background: #208dcf;
+    font-family: "TMSans-Bold", Helvetica, Arial, sans-serif;
+    border-radius: 15px;
+    min-width: 28px;
+    min-height: 28px;
+    box-sizing: border-box;
+}
+
+/*tooltip-version*/
+div[w-theme="calendar"] .tooltip-version {
+    position: absolute;
+    z-index: 1070;
+    display: block;
+    font-family: "TMSans-Light", Arial, serif;
+    font-style: normal;
+    font-weight: normal;
+    letter-spacing: normal;
+    line-break: auto;
+    line-height: 1.42857;
+    text-align: left;
+    text-align: start;
+    text-decoration: none;
+    text-shadow: none;
+    text-transform: none;
+    white-space: normal;
+    word-break: normal;
+    word-spacing: normal;
+    word-wrap: normal;
+    font-size: 12px;
+    opacity: 0;
+    filter: alpha(opacity=0);
+}
+
+div[w-theme="calendar"] .tooltip-inner {
+    max-width: 100%;
+    padding: 3px 8px;
+    color: #fff;
+    text-align: center;
+    background-color: #768692;
+    border-radius: 4px;
+}
+
+div[w-theme="calendar"] .tooltip-inner a {
+    color: #fff;
+    font-size: 11px;
+    font-family: "TMSans-Light", Arial, serif;
+}
+
+div[w-theme="calendar"] .tooltip-inner a:hover {
+    text-decoration: underline;
+}
+
+div[w-theme="calendar"] .tooltip-inner .place{
+    font-family: "TMSans-Light", Arial, serif;
+    font-size: 11px;
+    line-height: 14px;
+    color: #fff;
+    opacity: 0.7;
+    display: block;
+}
+
+div[w-theme="calendar"] .tooltip-inner .place b {
+    font-weight: 700;
+    color: #fff;
+}
+
+div[w-theme="calendar"] .tooltip-version.left {
+    margin-left: -3px;
+    padding: 0 5px;
+    right: 28px;
+    top: 6px;
+    display: none;
+}
+
+div[w-theme="calendar"][w-proportion="m"] .tooltip-version.left {
+    display: none;
+}
+
+div[w-theme="calendar"] .tooltip-inner::before {
+    position: absolute;
+    width: 0;
+    height: 0;
+    border-color: transparent;
+    border-style: solid;
+}
+
+div[w-theme="calendar"] .tooltip-version.left .tooltip-inner::before {
+    top: 30%;
+    right: 0;
+    margin-top: -5px;
+    content: "";
+    border-width: 5px 0 5px 5px;
+    border-left-color: #768692;
+}
+
+div[w-theme="calendar"] .tooltip-version.left.show-tip {
+    opacity: 1;
+    filter: alpha(opacity=1);
+    display: block;
+}
+/*tooltip-version END*/
+
+
+/* Dark Theme */
+div[w-theme="calendar"][w-colorscheme="dark"] {
+    background: #48494a;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .events-root-container{
+    background-color: #414141;
+    border-style: solid;
+    border-color: transparent;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .tabs {
+    background: #48494a;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .tabs span {
+    color: #919192;
+    border-color: #919192;
+    border-left: none;
+
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .tabs span:first-child {
+    border-left: 1px solid #919192;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .tabs span.active {
+    background: #919192;
+    color: #48494a;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .selector-title {
+    color: #c8c8c9;
+    border-bottom: none;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .selector-title:hover {
+    color: #189ddc;
+    cursor: pointer;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .selector-content {
+    background: #768692;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .weekSсheduler {
+    background: #414141;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .weekSсheduler .days .time-wrapper .time-holder .t {
+    border-top: 1px dashed rgba(255, 255, 255, 0.2);
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .weekSсheduler .days .time-wrapper .time-holder .d {
+    border-right: 1px solid rgba(255, 255, 255, 0.2);
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .weekSсheduler .days .d,
+div[w-theme="calendar"][w-colorscheme="dark"] .weekSсheduler .days .d.active,
+div[w-theme="calendar"][w-colorscheme="dark"] .weekSсheduler .days .time-wrapper .time-holder .tl {
+    color: #c8c8c9;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .weekSсheduler .days .time-wrapper .time-holder .d:last-child {
+    border-right: 0;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .monthScheduler .calendar table tr:nth-child(odd) {
+    background: none;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .monthScheduler .calendar .round {
+    color: #d9d9d9;
+    background: none;
+    border: 1px solid rgba(255,255,255,0.3);
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .monthScheduler .calendar .round .count {
+    border-color: #414141;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .monthScheduler .calendar .round:hover,
+div[w-theme="calendar"][w-colorscheme="dark"] .monthScheduler .calendar .round:hover .count,
+div[w-theme="calendar"][w-colorscheme="dark"] .monthScheduler .calendar .round-holder.active .round,
+div[w-theme="calendar"][w-colorscheme="dark"] .monthScheduler .calendar .round-holder.active .count {
+    cursor: pointer;
+    background: #ba1079;
+    color: #fff !important;
+    border-color: #ba1079;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .monthScheduler .calendar .round:hover .count {
+    border-color: #414141;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .monthScheduler .calendar td.dis {
+    color: #696969;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .monthScheduler .calendar table th {
+    color: #c8c8c9;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .monthScheduler .calendar table td {
+    color: #8d8d8d;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .year .month .name,
+div[w-theme="calendar"][w-colorscheme="dark"] .year .month .name.current {
+    color: #c8c8c9;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .event-logo-box {
+    background: rgba(0,0,0,0.2);
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .event-logo {
+    color: #fff;
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: linear;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .event-logo:before {
+    background-image: url("http://ticketmaster-api-staging.github.io/assets/widgets/1.0.0/img/tm-logo-white.svg");
+    background-size: 98px;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .event-logo-c {
+    color: #fff;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .event-logo-c:after {
+    background-image: url("http://ticketmaster-api-staging.github.io/assets/widgets/1.0.0/img/tm-logo-white.svg");
+    background-size: 98px;
+}
+
+div[w-theme="calendar"] .event-logo.centered-logo {
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: linear;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 0;
+    line-height: 15px;
+}
+
+div[w-theme="calendar"] .event-logo.right-logo {
+    -webkit-transition-duration: .5s;
+    -webkit-transition-timing-function: linear;
+    transition-duration: .5s;
+    transition-timing-function: linear;
+    position: absolute;
+    margin: auto;
+    right: 0;
+    left: 50%;
+    line-height: 18px;
+}
+
+div[w-theme="calendar"] .spinner > div {
+    opacity: 1;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .spinner > div {
+    opacity: 0.5;
+}
+
+div[w-theme="calendar"] .spinner-container {
+    width: 100%;
+    height: 275px;
+    margin: 0 auto;
+    text-align: center;
+    background: #e5e5e5;
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
+
+div[w-theme="calendar"][w-colorscheme="dark"] .spinner-container {
+    width: 100%;
+    height: 275px;
+    margin: 0 auto;
+    text-align: center;
+    background: #48494a;
+    display: block;
+    position: absolute;
+    z-index: 10;
+}
+
+div[w-theme="calendar"] .spinner-container.hide {
+    display: none;
+}
+
+div[w-theme="calendar"] .spinner {
+    width: 50px;
+    height: 50px;
+    text-align: center;
+    font-size: 10px;
+    display: block;
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    margin: -25px 0 0 -25px;
+}
+
+div[w-theme="calendar"] .spinner > div {
+    background-color: #f1f4f6;
+    height: 100%;
+    width: 6px;
+    display: inline-block;
+    margin: 0 1px;
+    -webkit-animation: sk-stretchdelay 1.2s infinite ease-in-out;
+    animation: sk-stretchdelay 1.2s infinite ease-in-out;
+}
+
+div[w-theme="calendar"] .spinner .rect2 {
+    -webkit-animation-delay: -1.1s;
+    animation-delay: -1.1s;
+}
+
+div[w-theme="calendar"] .spinner .rect3 {
+    -webkit-animation-delay: -1.0s;
+    animation-delay: -1.0s;
+}
+
+div[w-theme="calendar"] .spinner .rect4 {
+    -webkit-animation-delay: -0.9s;
+    animation-delay: -0.9s;
+}
+
+div[w-theme="calendar"] .spinner .rect5 {
+    -webkit-animation-delay: -0.8s;
+    animation-delay: -0.8s;
+}
+
+@-webkit-keyframes sk-stretchdelay {
+    0%, 40%, 100% { -webkit-transform: scaleY(0.4) }
+    20% { -webkit-transform: scaleY(1.0) }
+}
+
+@keyframes sk-stretchdelay {
+    0%, 40%, 100% {
+        transform: scaleY(0.4);
+        -webkit-transform: scaleY(0.4);
+    }  20% {
+           transform: scaleY(1.0);
+           -webkit-transform: scaleY(1.0);
+       }
+}
+
+/* Latlong settings */
+.widget__location p span, .widget__latlong p span {
+    color: #009cde;
+    cursor: pointer;
+}
+
+.widget__location.hidn, .widget__latlong.hidn {
+    overflow: hidden;
+    opacity: 0;
+    height: 0;
+    margin: 0;
+    padding: 0;
+    border: none;
+}
+
+.widget__latlong .latlong-picker {
+    position: absolute;
+    width: 28px;
+    height: 28px;
+    display: block;
+    background: url("../img/ic-show-map.svg") 0 0 no-repeat;
+    bottom: 34px;
+    right: 23px;
+}
+
+.widget__latlong .latlong-picker:hover {
+    background: url("../img/ic-show-map.svg") 0 -28px no-repeat;
+    outline: none;
+    border: none;
+}    
+
+.widget__latlong .latlong-picker:active,
+.widget__latlong .latlong-picker:focus {
+    outline: none;
+    border: none;
+    box-shadow: none;
+}
+
+#ticketmaster-settings .map-holder {
+    overflow: hidden;
+    margin-bottom: 30px;
+    margin-left: -15px;
+    margin-right: -15px;
+}
+#ticketmaster-settings .map-holder #map_latlong {
+    width: 100%;
+    height: 450px;
+    position: relative;
+    overflow: hidden;
+}    
+
+#ticketmaster-settings #map_address {
+    float: left;
+    max-width: 300px;
+    text-align: left;
+}
+
+#ticketmaster-settings #pac_input {
+    width: 96%;
+    margin: 0 auto;
+    font-family: 'TMSans-Regular', Helvetica, Arial, sans-serif;
+    font-size: 16px;
+    left: 0;
+    right: 0;
+    top: 15px !important;
+    padding: 5px 10px;
+}
+
+.pac-container {
+	font-family: 'TMSans-Regular', Helvetica, Arial, sans-serif;
+	font-size: 14px;
+	z-index: 99999 !important;
+}
+
+/*Selector*/
+#ticketmaster-settings .lazy-selector-wrapper {
+    position: relative;
+}
+
+#ticketmaster-settings .lazy-selector-wrapper input {
+    padding: 8px 31px 8px 16px
+}
+
+#ticketmaster-settings .lazy-selector-wrapper {
+    opacity: 1;
+}
+
+#ticketmaster-settings .lazy-selector-wrapper .icon {
+    content: '';
+    position: absolute;
+    top: 15px;
+    right: 8px;
+    width: 28px;
+    height: 28px;
+    margin-top: -5px;
+    cursor: pointer
+}
+
+#ticketmaster-settings .lazy-selector-wrapper .icon:before,.lazy-selector-wrapper .icon:after {
+    content: '';
+    position: absolute;
+    left: 0;
+    top: 0;
+    bottom: 0;
+    right: 0;
+    background: url("../img/ic-input-controls.svg") no-repeat;
+    -webkit-transition: opacity 0.2s ease-in-out;
+    -o-transition: opacity 0.2s ease-in-out;
+    transition: opacity 0.2s ease-in-out
+}
+
+#ticketmaster-settings .lazy-selector-wrapper .icon:before {
+    background-position: -28px 0;
+    opacity: 0
+}
+
+#ticketmaster-settings .lazy-selector-wrapper .icon:after {
+    background-position: 1px 0
+}
+
+#ticketmaster-settings .lazy-selector-wrapper .icon:hover:before {
+    opacity: 1
+}
+
+#ticketmaster-settings .lazy-selector-wrapper .icon:hover:after {
+    opacity: 0
+}
+
+#ticketmaster-settings #js_ls-modal-classification .error-box,#js_ls-modal .error-box {
+    border: 0;
+    padding: 24px 0 0
+}
+
+@media (max-width: 768px) {
+    #ticketmaster-settings #js_ls-modal-classification .error-box h3,
+    #ticketmaster-settings #js_ls-modal-classification .error-box .row-partners h3 a,
+    #ticketmaster-settings .row-partners h3 #js_ls-modal-classification .error-box a,
+    #ticketmaster-settings #js_ls-modal .error-box h3,
+    #ticketmaster-settings #js_ls-modal .error-box .row-partners h3 a,
+    #ticketmaster-settings .row-partners h3 #js_ls-modal .error-box a {
+        font-size:1.5em
+    }
+}
+
+#ticketmaster-settings #js_ls-modal-classification .error-box.error-fail h3,
+#ticketmaster-settings #js_ls-modal-classification .error-box.error-fail .row-partners h3 a,
+#ticketmaster-settings .row-partners h3 #js_ls-modal-classification .error-box.error-fail a,
+#ticketmaster-settings #js_ls-modal .error-box.error-fail h3,
+#ticketmaster-settings #js_ls-modal .error-box.error-fail .row-partners h3 a,
+#ticketmaster-settings .row-partners h3 #js_ls-modal .error-box.error-fail a {
+    color: #D0021B
+}
+
+#ticketmaster-settings #js_ls-modal-classification .btn-submit,
+#ticketmaster-settings #js_ls-modal-classification .btn-transparent,
+#ticketmaster-settings #js_ls-modal .btn-submit,
+#ticketmaster-settings #js_ls-modal .btn-transparent {
+    border-radius: 4px;
+    padding: 2px 6px;
+    text-transform: uppercase;
+    font-family: "TMSans-Bold",Helvetica,Arial,sans-serif;
+    font-size: 12px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .btn-transparent,
+#ticketmaster-settings #js_ls-modal .btn-transparent {
+    border: solid 2px #b7c9d3;
+    background-color: transparent;
+    color: #b7c9d3
+}
+
+#ticketmaster-settings #js_ls-modal-classification .btn-transparent:focus,
+#ticketmaster-settings #js_ls-modal-classification .btn-transparent:active,
+#ticketmaster-settings #js_ls-modal-classification .btn-transparent:hover,
+#ticketmaster-settings #js_ls-modal .btn-transparent:focus,
+#ticketmaster-settings #js_ls-modal .btn-transparent:active,
+#ticketmaster-settings #js_ls-modal .btn-transparent:hover {
+    color: #2a7cc7;
+    border-color: #2a7cc7;
+    background-color: #fff;
+    outline: none
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-dialog,#ticketmaster-settings #js_ls-modal .modal-dialog {
+    width: 100%;
+    margin: 0
+}
+
+@media (min-width: 768px) {
+    #ticketmaster-settings #js_ls-modal-classification .modal-dialog,
+    #ticketmaster-settings #js_ls-modal .modal-dialog {
+        width:740px;
+        margin: 30px auto
+    }
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-header,
+#ticketmaster-settings #js_ls-modal .modal-header {
+    padding-bottom: 9px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-header .modal-title,
+#ticketmaster-settings #js_ls-modal .modal-header .modal-title,
+#ticketmaster-settings #js_ls-modal-map .modal-header .modal-title
+{
+    font-size: 2.25em;
+    text-align: left;
+    padding: 0 30px;
+}
+
+@media (max-width: 768px) {
+    #ticketmaster-settings #js_ls-modal-classification .modal-header .modal-title,
+    #ticketmaster-settings #js_ls-modal .modal-header .modal-title,
+    #ticketmaster-settings #js_ls-modal-map .modal-header .modal-title
+    {
+        font-size:1.5em
+    }
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-content,
+#ticketmaster-settings #js_ls-modal .modal-content {
+    border: 0;
+    margin-left: 0;
+    transition-duration: 1s;
+    z-index: 1;
+    width: 100%
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-content .ms-selection .btn-submit,
+#ticketmaster-settings #js_ls-modal-classification .modal-content form .btn-transparent,
+#ticketmaster-settings #js_ls-modal .modal-content .ms-selection .btn-submit,
+#ticketmaster-settings #js_ls-modal .modal-content form .btn-transparent {
+    height: 50px;
+    transition-duration: 1s;
+    font-size: 1em
+}
+
+@media (min-width: 768px) {
+    #ticketmaster-settings #js_ls-modal-classification .modal-content .ms-selection .btn-submit,
+    #ticketmaster-settings #js_ls-modal-classification .modal-content form .btn-transparent,
+    #ticketmaster-settings #js_ls-modal .modal-content .ms-selection .btn-submit,
+    #ticketmaster-settings #js_ls-modal .modal-content form .btn-transparent {
+        width:110px;
+        margin-right: 16px
+    }
+}
+
+@media (max-width: 768px) {
+    #ticketmaster-settings #js_ls-modal-classification .modal-content .ms-selection .btn-submit,
+    #ticketmaster-settings #js_ls-modal-classification .modal-content form .btn-transparent,
+    #ticketmaster-settings #js_ls-modal .modal-content .ms-selection .btn-submit,
+    #ticketmaster-settings #js_ls-modal .modal-content form .btn-transparent {
+        width:100%;
+        margin-bottom: 24px
+    }
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-content.narrow,
+#ticketmaster-settings #js_ls-modal .modal-content.narrow {
+    width: 60%
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-content.narrow .btn-submit,
+#ticketmaster-settings #js_ls-modal-classification .modal-content.narrow .btn-transparent,
+#ticketmaster-settings #js_ls-modal .modal-content.narrow .btn-submit,
+#ticketmaster-settings #js_ls-modal .modal-content.narrow .btn-transparent {
+    max-width: 165px;
+    width: 100%
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-content.narrow #js_ls-more_btn,#ticketmaster-settings #js_ls-modal .modal-content.narrow #js_ls-more_btn {
+    width: auto;
+    max-width: initial
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-content .ms-selection .ms-list,#ticketmaster-settings #js_ls-modal .modal-content .ms-selection .ms-list {
+    margin-top: 0;
+    max-height: 76px;
+    overflow-y: auto
+}
+
+@media (max-width: 1200px) {
+    #ticketmaster-settings #js_ls-modal-classification .modal-content .ms-selection .ms-list,
+    #ticketmaster-settings #js_ls-modal .modal-content .ms-selection .ms-list {
+        max-height:initial
+    }
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-content .ms-selection .ms-list .ms-elem-selection,#ticketmaster-settings #js_ls-modal .modal-content .ms-selection .ms-list .ms-elem-selection {
+    display: inline-block;
+    background-color: #b7c9d3;
+    color: #fff;
+    padding: 4px 28px 4px 16px;
+    border-radius: 16px;
+    font-family: "TMSans-Bold",Helvetica,Arial,sans-serif;
+    font-size: .6875em;
+    margin: 0 5px 5px 0;
+    position: relative;
+    white-space: nowrap;
+    text-overflow: ellipsis;
+    overflow: hidden;
+    max-width: 320px;
+    border: 1px #b7c9d3 solid
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-content .ms-selection .ms-list .ms-elem-selection span,
+#ticketmaster-settings #js_ls-modal .modal-content .ms-selection .ms-list .ms-elem-selection span {
+    width: 10px;
+    height: 10px;
+    position: absolute;
+    margin-left: 5px;
+    margin-top: 3px;
+    right: 12px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-content .ms-selection .ms-list .ms-elem-selection span:after,
+#ticketmaster-settings #js_ls-modal .modal-content .ms-selection .ms-list .ms-elem-selection span:after {
+    content: '';
+    height: 10px;
+    width: 10px;
+    display: block;
+    background-image: url("../img/ic-close-small-grey.svg")
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-content .ms-selection .ms-list .ms-elem-selection span:hover:after,
+#ticketmaster-settings #js_ls-modal .modal-content .ms-selection .ms-list .ms-elem-selection span:hover:after {
+    cursor: pointer;
+    opacity: 0.7
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-content .ms-selection .btn-submit,
+#ticketmaster-settings #js_ls-modal .modal-content .ms-selection .btn-submit {
+    margin-bottom: 48px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .clear-padding,
+#ticketmaster-settings #js_ls-modal .modal-body .clear-padding {
+    padding: 0
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .clear-padding-right,
+#ticketmaster-settings #js_ls-modal .modal-body .clear-padding-right {
+    padding-right: 0
+}
+
+@media (max-width: 768px) {
+    #ticketmaster-settings #js_ls-modal-classification .modal-body .clear-padding-right,
+    #ticketmaster-settings #js_ls-modal .modal-body .clear-padding-right {
+        padding-right:15px
+    }
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body {
+    padding: 15px 30px;
+}
+#ticketmaster-settings #js_ls-modal-classification .modal-body .top-hr,
+#ticketmaster-settings #js_ls-modal-classification .modal-body hr,
+#ticketmaster-settings #js_ls-modal .modal-body .top-hr,
+#ticketmaster-settings #js_ls-modal .modal-body hr {
+    min-width: calc(100% + 60px);
+    margin: 0 -30px;
+    border-top: 2px solid #b7c9d3;
+    text-align: center;
+    float: left
+}
+#ticketmaster-settings #js_ls-modal .modal-body hr {
+    min-width: calc(100% + 30px);
+    margin: 0 -15px;
+}
+
+#js_ls-modal-classification .modal-body .top-hr,
+#js_ls-modal .modal-body .top-hr {
+    float: initial
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .get_eventId_results,
+#ticketmaster-settings #js_ls-modal .modal-body .get_eventId_results {
+    margin-top: -24px;
+    font-size: 0.75em
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .get_eventId_results span,
+#ticketmaster-settings #js_ls-modal .modal-body .get_eventId_results span {
+    font-weight: bold
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body #spinner-ls,
+#ticketmaster-settings #js_ls-modal .modal-body #spinner-ls {
+    width: 100px;
+    height: 100px;
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    margin-top: -50px;
+    margin-left: -50px;
+    background: url("../img/loader.gif");
+    background-size: 100px 100px;
+    z-index: 1000
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .wrapper-list-group,
+#ticketmaster-settings #js_ls-modal .modal-body .wrapper-list-group {
+    overflow-y: auto;
+    overflow-x: hidden;
+    max-height: 500px;
+    width: 100%;
+    margin: 0
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .wrapper-list-group.low-height,
+#ticketmaster-settings #js_ls-modal .modal-body .wrapper-list-group.low-height {
+    max-height: 400px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .wrapper-list-group.low-height .list-group-item,
+#ticketmaster-settings #js_ls-modal .modal-body .wrapper-list-group.low-height .list-group-item {
+    min-height: 130px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .wrapper-list-group.low-height .event-text-wrapper,
+#ticketmaster-settings #js_ls-modal .modal-body .wrapper-list-group.low-height .event-text-wrapper {
+    min-height: initial
+}
+#ticketmaster-settings #js_ls-modal .modal-body .wrapper-list-group.low-height .event-text-wrapper {
+    padding-right: 0;
+}
+
+@media (max-width: 768px) {
+    #ticketmaster-settings #js_ls-modal-classification .modal-body .wrapper-list-group.low-height .wrapper-btns .js_ms-add-list_btn,#ticketmaster-settings #js_ls-modal .modal-body .wrapper-list-group.low-height .wrapper-btns .js_ms-add-list_btn {
+        display:none
+    }
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group,#ticketmaster-settings #js_ls-modal .modal-body .list-group {
+    overflow: hidden;
+    padding: 0 15px;
+    margin: 0
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group.no-scroll,#ticketmaster-settings #js_ls-modal .modal-body .list-group.no-scroll {
+    padding-right: 31px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item {
+    border: 0;
+    border-radius: 0;
+    border-top: 1px solid #b7c9d3;
+    padding: 24px 0
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item:first-child,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item:first-child {
+    border-top: 0
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .thumbnail,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .thumbnail {
+    position: relative;
+    width: 122px;
+    overflow: hidden;
+    float: left;
+    display: block;
+    padding: 0;
+    margin: 2px 20px 0 0;
+    min-height: 102px;
+    border-radius: 0
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .thumbnail img,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .thumbnail img {
+    position: absolute;
+    left: 50%;
+    top: 50%;
+    -webkit-transform: translate(-50%, -50%);
+    -ms-transform: translate(-50%, -50%);
+    transform: translate(-50%, -50%);
+    margin: 0;
+    width: auto;
+    height: 100%;
+    object-fit: cover
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .event-text-wrapper,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .event-text-wrapper {
+    margin-right: 110px;
+    min-height: 105px
+}
+
+@media (max-width: 768px) {
+    #ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .event-text-wrapper,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .event-text-wrapper {
+        width:100%;
+        margin-left: 0;
+        margin-right: 0;
+        margin-bottom: 16px;
+        padding: 0
+    }
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .event-text-wrapper.clear-margin-left,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .event-text-wrapper.clear-margin-left {
+    margin-left: 0
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .event-text-wrapper .classifications-name,#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .event-text-wrapper .country-name,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .event-text-wrapper .classifications-name,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .event-text-wrapper .country-name {
+    margin: 5px 0;
+    line-height: 1em
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .event-text-wrapper .classifications-name .add-dot,#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .event-text-wrapper .country-name .add-dot,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .event-text-wrapper .classifications-name .add-dot,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .event-text-wrapper .country-name .add-dot {
+    margin-left: 12px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .event-text-wrapper .classifications-name .add-dot:before,#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .event-text-wrapper .country-name .add-dot:before,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .event-text-wrapper .classifications-name .add-dot:before,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .event-text-wrapper .country-name .add-dot:before {
+    background-color: #768692;
+    content: '';
+    position: absolute;
+    width: 3px;
+    height: 3px;
+    display: inline-block;
+    margin-top: 7px;
+    margin-left: -7px;
+    border-radius: 50%;
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .event-text-wrapper .classifications-name .add-dot:before,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .event-text-wrapper .classifications-name .add-dot:before {
+    margin-top: 10px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .event-time,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .event-time {
+    margin-bottom: 0
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .wrapper-btns,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .wrapper-btns {
+    width: 110px;
+    right: 0;
+    position: absolute;
+    top: 24px
+}
+
+@media (max-width: 768px) {
+    #ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .wrapper-btns,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .wrapper-btns {
+        position:relative;
+        bottom: 0;
+        left: 0;
+        top: 0;
+        text-align: left
+    }
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .wrapper-btns .btn-submit,#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .wrapper-btns .btn-transparent,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .wrapper-btns .btn-submit,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .wrapper-btns .btn-transparent {
+    width: 110px;
+    height: 24px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .wrapper-btns .btn-transparent,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .wrapper-btns .btn-transparent {
+    margin-top: 10px;
+    float: right
+}
+
+@media (max-width: 768px) {
+    #ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .wrapper-btns .btn-transparent,
+    #ticketmaster-settings #js_ls-modal .modal-body .list-group-item .wrapper-btns .btn-transparent {
+        margin-top:0;
+        float: none
+    }
+    #ticketmaster-settings #js_ls-modal .modal-body .list-group-item .wrapper-btns .btn-transparent.pull-right {
+        float: right;
+    }
+}
+
+@media (max-width: 768px) {
+    #ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .wrapper-btns,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .wrapper-btns {
+        display:inline
+    }
+
+    #ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .wrapper-btns .js_ms-add-list_btn.btn-transparent,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .wrapper-btns .js_ms-add-list_btn.btn-transparent {
+        width: 45%;
+        min-width: 110px
+    }
+
+    #ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .wrapper-btns .btn-submit,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .wrapper-btns .btn-submit {
+        display: inline;
+        width: 45%;
+        min-width: 110px
+    }
+
+    #ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .wrapper-btns .wrapper-location_btn,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .wrapper-btns .wrapper-location_btn {
+        display: inline-block;
+        width: 45%;
+        min-width: 110px
+    }
+
+    #ticketmaster-settings #js_ls-modal-classification .modal-body .list-group-item .wrapper-btns .btn-transparent,#ticketmaster-settings #js_ls-modal .modal-body .list-group-item .wrapper-btns .btn-transparent {
+        width: 100%
+    }
+}
+
+#ticketmaster-settings #js_ls-modal-classification .list-footer,#ticketmaster-settings #js_ls-modal .list-footer {
+    height: 74px;
+    margin: 0;
+    border-top: 3px solid #b7c9d3;
+    padding: 24px 0 0;
+    box-sizing: border-box;
+}
+
+#ticketmaster-settings #js_ls-modal-classification .list-footer button.btn-submit,#ticketmaster-settings #js_ls-modal .list-footer button.btn-submit {
+    height: 24px;
+    border-radius: 4px;
+    border: solid 2px #b7c9d3;
+    background-color: transparent;
+    color: #8998a3;
+    padding: 0 20px;
+    margin: 0;
+    width: inherit
+}
+
+#ticketmaster-settings #js_ls-modal-classification .list-footer button.btn-submit:focus,#ticketmaster-settings #js_ls-modal-classification .list-footer button.btn-submit:active,#ticketmaster-settings #js_ls-modal-classification .list-footer button.btn-submit:hover,#ticketmaster-settings #js_ls-modal .list-footer button.btn-submit:focus,#ticketmaster-settings #js_ls-modal .list-footer button.btn-submit:active,#ticketmaster-settings #js_ls-modal .list-footer button.btn-submit:hover {
+    color: #2a7cc7;
+    border-color: #2a7cc7;
+    background-color: #fff;
+    outline: none
+}
+
+#ticketmaster-settings #js_ls-modal-classification .wrapper-map-canvas,#ticketmaster-settings #js_ls-modal .wrapper-map-canvas {
+    width: 100%;
+    height: 100%;
+    background-color: blue;
+    position: relative;
+    min-height: 100%;
+    border-left: 1px solid #fff;
+    left: -1px
+}
+
+#ticketmaster-settings #js_ls-modal-classification #map-canvas,#ticketmaster-settings #js_ls-modal #map-canvas {
+    position: absolute;
+    height: 100%;
+    width: 40%;
+    left: 60%;
+    top: 0
+}
+
+#ticketmaster-settings #js_ls-modal-classification .button-close-map,#ticketmaster-settings #js_ls-modal .button-close-map {
+    position: absolute;
+    top: 14px;
+    right: 12px;
+    border: 0;
+    outline: none;
+    background-color: #ffffff;
+    height: 24px;
+    width: 24px;
+    z-index: 9999;
+    background-image: url("../img/ic-close-grey.svg")
+}
+
+#ticketmaster-settings #js_ls-modal-classification .button-close-map:hover,#ticketmaster-settings #js_ls-modal .button-close-map:hover {
+    background-repeat: no-repeat;
+    background-position: center;
+    background-image: url("../img/ic-close-grey-hover.svg")
+}
+
+#ticketmaster-settings .modal-open #js_ls-modal-classification.modal-backdrop,.modal-open #js_ls-modal.modal-backdrop {
+    background-color: transparent
+}
+
+@media (max-width: 768px) {
+    #ticketmaster-settings .modal-open[style="padding-right: 17px;"] .modal#js_ls-modal-classification,.modal-open[style="padding-right: 17px;"] .modal#js_ls-modal {
+        padding-right:0px !important
+    }
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul {
+    max-height: 500px;
+    overflow-y: auto;
+    width: 100%;
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul li {
+    background-image: none;
+    padding-top: 13px;
+    padding-bottom: 13px;
+    margin-left: 0;
+    border-bottom: 2px solid #dadddf;
+    position: relative
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-node,#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-icon {
+    background-image: url("../img/btn-chevron-sprite.svg");
+    background-color: transparent
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-icon {
+    width: 30px;
+    height: 30px;
+    line-height: 30px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-icon:empty {
+    background-position: -120px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-anchor {
+    font-family: "TMSans-Bold",Helvetica,Arial,sans-serif;
+    font-size: 1.5em;
+    line-height: 32px;
+    margin-left: 20px;
+    margin-right: 20px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-anchor:hover {
+    color: #2a7cc7;
+    opacity: 1
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-children {
+    margin-left: 24px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-children .jstree-node {
+    padding: 0;
+    border-bottom: 0
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-children .jstree-anchor {
+    font-size: 1em;
+    margin-right: 20px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-children .jstree-icon {
+    background: none
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-children li>ul.jstree-children .jstree-anchor {
+    opacity: 0.7;
+    border-left: 2px solid #b7c9d3;
+    padding-left: 10px;
+    margin-left: 0;
+    margin-right: 20px
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-children li>ul.jstree-children .jstree-anchor:hover {
+    color: #2a7cc7;
+    opacity: 1
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-anchor.jstree-clicked,
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-search {
+    color: #00ade5
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-anchor.jstree-clicked {
+    font-weight: normal;
+    color: #00ade5
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-closed>.jstree-ocl {
+    background-position: 0;
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-closed>.jstree-ocl:hover {
+    background-position: -30px 0;
+    color: #2a7cc7
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-open>.jstree-ocl {
+    background-position: -60px 0
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-closed>.jstree-ocl.hovered,
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-closed>.jstree-ocl:hover {
+    background-position: -30px 0;
+    color: #2a7cc7
+}
+
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-open>.jstree-ocl:hover,
+#ticketmaster-settings #js_ls-modal-classification .jstree-container-ul .jstree-open>.jstree-ocl.hovered {
+    background-position: -90px 0;
+    color: #2a7cc7
+}
+
+#ticketmaster-settings #js_ls-modal-classification .btn-small {
+    width: 110px;
+    height: 24px;
+    margin-top: 5px;
+    position: absolute;
+    right: 0
+}
+
+@media (max-width: 768px) {
+    #ticketmaster-settings #js_ls-modal-classification .btn-small {
+        width:40px;
+        margin-top: 0;
+        position: relative
+    }
+}
+#ticketmaster-settings #js_ls_form.get-eventId_form-validation input{
+    border-color: #D0021B;
+}
+#ticketmaster-settings #js_ls-modal .text-right,
+#ticketmaster-settings #js_ls-modal-classification .text-right {
+    text-align: right;
+}
+#ticketmaster-settings #js_ls-modal .col-sm-9,
+#ticketmaster-settings #js_ls-modal .col-sm-3,
+#ticketmaster-settings #js_ls-modal-classification .col-sm-9,
+#ticketmaster-settings #js_ls-modal-classification .col-sm-3 {
+    width: 100%;
+}
+@media (min-width: 768px) {
+    #ticketmaster-settings #js_ls-modal .col-sm-9,
+    #ticketmaster-settings #js_ls-modal-classification .col-sm-9 {
+        width: 75%;
+    }
+    #ticketmaster-settings #js_ls-modal .col-sm-3,
+    #ticketmaster-settings #js_ls-modal-classification .col-sm-3 {
+        width: 25%;
+    }
+    #ticketmaster-settings #js_ls-modal .col-sm-12 {
+        width: 100%;
+    }
+}
+/*selector END*/
+
+/*jstree*/
+#ticketmaster-settings #classification-jstree ul>li,.content .nested-list-wrapper ul>li {
+    margin-left: 24px
+}
+
+#ticketmaster-settings #classification-jstree ul>li a+.hovered,.content .nested-list-wrapper ul>li a+.hovered {
+    color: #2a7cc7
+}
+
+#ticketmaster-settings .jstree-node {
+    white-space: nowrap
+}
+
+#ticketmaster-settings .jstree-node,.jstree-children,.jstree-container-ul {
+    display: block;
+    margin: 0;
+    padding: 0;
+    list-style-type: none;
+    list-style-image: none
+}
+
+#ticketmaster-settings .jstree-default .jstree-node {
+    min-height: 24px;
+    min-width: 24px;
+    line-height: 32px
+}
+
+#ticketmaster-settings .jstree-default .jstree-node,
+#ticketmaster-settings .jstree-default .jstree-icon {
+    background-repeat: no-repeat;
+    background-color: transparent
+}
+
+#ticketmaster-settings .jstree-default .jstree-node {
+    background-position: -292px 0;
+    background-repeat: repeat-y
+}
+
+#ticketmaster-settings .jstree-default .jstree-icon:empty {
+    width: 24px;
+    height: 24px;
+    line-height: 24px;
+    background-position: 30px
+}
+
+#ticketmaster-settings .nested-list-wrapper ul.jstree-children:not(:first-child) {
+    margin-top: 0
+}
+
+#ticketmaster-settings .jstree-icon {
+    display: inline-block;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center
+}
+
+#ticketmaster-settings .jstree-icon:empty {
+    display: block;
+    float: left;
+    text-decoration: none;
+    margin: 0;
+    padding: 0;
+    vertical-align: top;
+    text-align: center
+}
+
+#ticketmaster-settings .jstree-ocl {
+    cursor: pointer
+}
+
+#ticketmaster-settings .jstree-default .jstree-open>.jstree-ocl {
+    background-position: -132px 0
+}
+
+#ticketmaster-settings .jstree-default .jstree-anchor,
+#ticketmaster-settings .jstree-default .jstree-wholerow {
+    transition: background-color .15s, box-shadow .15s
+}
+
+#ticketmaster-settings .jstree-default .jstree-node,
+#ticketmaster-settings .jstree-default .jstree-icon {
+    background-image: url("../img/list-collapse.svg");
+    background-color: transparent
+}
+
+#ticketmaster-settings .jstree-default .jstree-hovered,
+#ticketmaster-settings .jstree-default .jstree-clicked {
+    box-shadow: none;
+    background: none;
+    color: #2a7cc7
+}
+
+#ticketmaster-settings .jstree-default .jstree-clicked {
+    color: #768692
+}
+
+#ticketmaster-settings .jstree-default>.jstree-container-ul>.jstree-node {
+    margin-left: 0;
+    margin-right: 0
+}
+
+#ticketmaster-settings i.jstree-icon.jstree-themeicon {
+    display: none
+}
+
+#ticketmaster-settings a.jstree-anchor>h5:hover,
+#ticketmaster-settings span.jstree-anchor>h5:hover {
+    color: #2a7cc7
+}
+
+#ticketmaster-settings .jstree-hovered {
+    color: #2a7cc7
+}
+
+#ticketmaster-settings .jstree-hovered.jstree-anchor {
+    color: #768692
+}
+
+#ticketmaster-settings .jstree-default .jstree-closed>.jstree-ocl {
+    background-position: -100px 0
+}
+
+#ticketmaster-settings .jstree-default .jstree-closed>.jstree-ocl.hovered,
+#ticketmaster-settings .jstree-default .jstree-closed>.jstree-ocl:hover {
+    background-position: -37px 0;
+    color: #2a7cc7
+}
+
+#ticketmaster-settings .jstree-default .jstree-open>.jstree-ocl:hover,
+#ticketmaster-settings .jstree-default .jstree-open>.jstree-ocl.hovered {
+    background-position: -3px 0;
+    color: #2a7cc7
+}
+
+#ticketmaster-settings .jstree-default .hovered {
+    color: #2a7cc7
+}
+
+#ticketmaster-settings .jstree-default span {
+    cursor: pointer
+}
+
+#ticketmaster-settings .jstree-default span,
+#ticketmaster-settings .jstree-default a {
+    color: #768692;
+    white-space: pre-line;
+    display: inline-block
+}
+
+#ticketmaster-settings .jstree-default span:focus,
+#ticketmaster-settings .jstree-default a:focus {
+    text-decoration: none
+}
+
+#ticketmaster-settings .jstree-default span>a {
+    color: #009cde
+}
+
+#ticketmaster-settings .jstree-default span>a:hover {
+    color: #2a7cc7
+}
+/*jstree*/
